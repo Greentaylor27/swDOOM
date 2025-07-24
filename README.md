@@ -2,4 +2,4 @@
 
 This branch is specifically for building our version of chocolate-doom.
 
-See orignal Authors at [./chocolate-doom/AUTHORS](AUTHORS)
+See orignal Authors at [AUTHORS](./chocolate-doom/AUTHORS)
