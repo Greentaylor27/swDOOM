@@ -1,5 +1,6 @@
 import VideoPlug from './VideoPlug';
-import AudioPlugs from './AudioPlug';
+import LeftAudioPlug from './LeftAudioPlug';
+import RightAudioPlug from './RightAudioPlug';
 
 export default function TVControlDeck() {
   return (
@@ -7,7 +8,8 @@ export default function TVControlDeck() {
       <div className="plugs">
         {/* Here I will put the video and audio plugs */}
         <VideoPlug />
-        <AudioPlugs />
+        <LeftAudioPlug />
+        <RightAudioPlug />
       </div>
       <div className="buttonGroup">
         {/* Here is where I will put the TV Buttons */}
