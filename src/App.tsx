@@ -4,7 +4,7 @@ import Television from '../Components/Television';
 function App() {
 
   return (
-    <div>
+    <div className='app'>
       <Television />
     </div>
   )
