@@ -70,6 +70,7 @@ export default function GameCanvas() {
         ref={canvasRef}
         width={640}
         height={480}
+        style={{ width: '100%', height: '100%' }}
         onContextMenu={(e) => e.preventDefault()}
       />
     </div>
