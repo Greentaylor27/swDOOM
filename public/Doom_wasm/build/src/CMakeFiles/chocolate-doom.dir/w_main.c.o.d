@@ -1,0 +1,34 @@
+src/CMakeFiles/chocolate-doom.dir/w_main.c.o: \
+  /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_main.c \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/compat/stdlib.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/stdlib.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/features.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/bits/alltypes.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/alloca.h \
+  /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/../config.h \
+  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_iwad.h \
+  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_mode.h \
+  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doomtype.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
+  /usr/lib/llvm-13/lib/clang/13.0.1/include/inttypes.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/inttypes.h \
+  /usr/lib/llvm-13/lib/clang/13.0.1/include/stdint.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/stdint.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/bits/stdint.h \
+  /usr/lib/llvm-13/lib/clang/13.0.1/include/stdbool.h \
+  /usr/lib/llvm-13/lib/clang/13.0.1/include/limits.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/limits.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/bits/limits.h \
+  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_glob.h \
+  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_system.h \
+  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_ticcmd.h \
+  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_event.h \
+  /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_argv.h \
+  /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_main.h \
+  /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_merge.h \
+  /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_wad.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
+  /usr/lib/llvm-13/lib/clang/13.0.1/include/stddef.h \
+  /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file.h \
+  /home/loganwyatt/swDOOM/public/chocolate-doom/src/z_zone.h
