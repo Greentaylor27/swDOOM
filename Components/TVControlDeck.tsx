@@ -2,6 +2,8 @@ import VideoPlug from './VideoPlug';
 import LeftAudioPlug from './LeftAudioPlug';
 import RightAudioPlug from './RightAudioPlug';
 import PowerButton from './PowerButton';
+import VolumeControl from './VolumeControl';
+import ChannelControl from './ChannelControl';
 
 export default function TVControlDeck() {
   return (
@@ -18,8 +20,8 @@ export default function TVControlDeck() {
         */}
 
         <PowerButton />
-        {/* <VolumeControl /> */}
-        {/* <ChannelControl /> */}
+        <VolumeControl />
+        <ChannelControl />
       </div>
     </div>
   )

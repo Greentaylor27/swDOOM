@@ -1,10 +1,10 @@
 export default function PowerButton() {
   return (
     <div className="powerButtonWrapper">
-      <button className="powerButton">
+      <button className="controlButton">
         <span className="powerIcon" />
       </button>
-      <span className="powerLabel">POWER</span>
+      <span className="buttonLabel">POWER</span>
     </div>
   )
 }
