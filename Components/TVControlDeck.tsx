@@ -1,6 +1,7 @@
 import VideoPlug from './VideoPlug';
 import LeftAudioPlug from './LeftAudioPlug';
 import RightAudioPlug from './RightAudioPlug';
+import PowerButton from './PowerButton';
 
 export default function TVControlDeck() {
   return (
@@ -16,7 +17,7 @@ export default function TVControlDeck() {
         (stretch goal idea allow channel control to switch channels which corresponds to a shader.)
         */}
 
-        {/* <PowerButton /> */}
+        <PowerButton />
         {/* <VolumeControl /> */}
         {/* <ChannelControl /> */}
       </div>
