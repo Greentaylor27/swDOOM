@@ -1,5 +1,5 @@
 src/CMakeFiles/chocolate-doom.dir/i_endoom.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_endoom.c \
+  /home/loganwyatt/chocolate-doom/src/i_endoom.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stddef.h \
@@ -12,16 +12,16 @@ src/CMakeFiles/chocolate-doom.dir/i_endoom.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/string.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/../config.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doomtype.h \
+  /home/loganwyatt/chocolate-doom/src/doomtype.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/inttypes.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/inttypes.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stdbool.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/limits.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_video.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/./txt_main.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/./txt_sdl.h \
+  /home/loganwyatt/chocolate-doom/src/i_video.h \
+  /home/loganwyatt/chocolate-doom/textscreen/./txt_main.h \
+  /home/loganwyatt/chocolate-doom/textscreen/./txt_sdl.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_main.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_stdinc.h \

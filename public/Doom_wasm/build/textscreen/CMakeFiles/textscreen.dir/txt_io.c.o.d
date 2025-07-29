@@ -1,5 +1,5 @@
 textscreen/CMakeFiles/textscreen.dir/txt_io.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_io.c \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_io.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/stdlib.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdlib.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/features.h \
@@ -8,9 +8,9 @@ textscreen/CMakeFiles/textscreen.dir/txt_io.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/string.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/string.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_io.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_main.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_sdl.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_io.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_main.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_sdl.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_main.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_stdinc.h \

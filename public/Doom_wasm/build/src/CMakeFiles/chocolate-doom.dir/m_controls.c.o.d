@@ -1,5 +1,5 @@
 src/CMakeFiles/chocolate-doom.dir/m_controls.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_controls.c \
+  /home/loganwyatt/chocolate-doom/src/m_controls.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stddef.h \
@@ -8,7 +8,7 @@ src/CMakeFiles/chocolate-doom.dir/m_controls.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/alltypes.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/stdint.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/features.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doomtype.h \
+  /home/loganwyatt/chocolate-doom/src/doomtype.h \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/../config.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/inttypes.h \
@@ -17,9 +17,9 @@ src/CMakeFiles/chocolate-doom.dir/m_controls.c.o: \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/limits.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doomkeys.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_config.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_misc.h \
+  /home/loganwyatt/chocolate-doom/src/doomkeys.h \
+  /home/loganwyatt/chocolate-doom/src/m_config.h \
+  /home/loganwyatt/chocolate-doom/src/m_misc.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/stdarg.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stdarg.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/sys/stat.h \

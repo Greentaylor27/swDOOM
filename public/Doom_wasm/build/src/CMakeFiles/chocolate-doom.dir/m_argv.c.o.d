@@ -1,5 +1,5 @@
 src/CMakeFiles/chocolate-doom.dir/m_argv.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_argv.c \
+  /home/loganwyatt/chocolate-doom/src/m_argv.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/ctype.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/ctype.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/features.h \
@@ -33,19 +33,19 @@ src/CMakeFiles/chocolate-doom.dir/m_argv.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/inttypes.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/math.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/math.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doomtype.h \
+  /home/loganwyatt/chocolate-doom/src/doomtype.h \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/../config.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stdbool.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/limits.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_iwad.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_mode.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_system.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_ticcmd.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_event.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_misc.h \
+  /home/loganwyatt/chocolate-doom/src/d_iwad.h \
+  /home/loganwyatt/chocolate-doom/src/d_mode.h \
+  /home/loganwyatt/chocolate-doom/src/i_system.h \
+  /home/loganwyatt/chocolate-doom/src/d_ticcmd.h \
+  /home/loganwyatt/chocolate-doom/src/d_event.h \
+  /home/loganwyatt/chocolate-doom/src/m_misc.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/sys/stat.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/sys/stat.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/stat.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_argv.h
+  /home/loganwyatt/chocolate-doom/src/m_argv.h

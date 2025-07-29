@@ -1,5 +1,5 @@
 src/CMakeFiles/chocolate-doom.dir/deh_text.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_text.c \
+  /home/loganwyatt/chocolate-doom/src/deh_text.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stddef.h \
@@ -14,7 +14,7 @@ src/CMakeFiles/chocolate-doom.dir/deh_text.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/string.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/string.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doomtype.h \
+  /home/loganwyatt/chocolate-doom/src/doomtype.h \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/../config.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/inttypes.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/inttypes.h \
@@ -22,9 +22,9 @@ src/CMakeFiles/chocolate-doom.dir/deh_text.c.o: \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/limits.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/z_zone.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_defs.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/sha1.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_io.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_main.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_str.h
+  /home/loganwyatt/chocolate-doom/src/z_zone.h \
+  /home/loganwyatt/chocolate-doom/src/deh_defs.h \
+  /home/loganwyatt/chocolate-doom/src/sha1.h \
+  /home/loganwyatt/chocolate-doom/src/deh_io.h \
+  /home/loganwyatt/chocolate-doom/src/deh_main.h \
+  /home/loganwyatt/chocolate-doom/src/deh_str.h

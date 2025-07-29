@@ -1,4 +1,4 @@
-# Install script for directory: /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound
+# Install script for directory: /home/loganwyatt/chocolate-doom/pcsound
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

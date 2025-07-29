@@ -1,5 +1,5 @@
 src/CMakeFiles/chocolate-doom.dir/i_cdmus.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_cdmus.c \
+  /home/loganwyatt/chocolate-doom/src/i_cdmus.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stddef.h \
@@ -79,10 +79,10 @@ src/CMakeFiles/chocolate-doom.dir/i_cdmus.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_version.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_locale.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_misc.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doomtype.h \
+  /home/loganwyatt/chocolate-doom/src/doomtype.h \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/../config.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stdbool.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/limits.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_cdmus.h
+  /home/loganwyatt/chocolate-doom/src/i_cdmus.h

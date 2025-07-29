@@ -1,4 +1,4 @@
-# Install script for directory: /home/loganwyatt/swDOOM/public/chocolate-doom/src/doom
+# Install script for directory: /home/loganwyatt/chocolate-doom/src/doom
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

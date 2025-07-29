@@ -1,5 +1,5 @@
 src/CMakeFiles/chocolate-doom.dir/net_petname.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_petname.c \
+  /home/loganwyatt/chocolate-doom/src/net_petname.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/stdlib.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdlib.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/features.h \
@@ -7,7 +7,7 @@ src/CMakeFiles/chocolate-doom.dir/net_petname.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/alloca.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/time.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/time.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doomtype.h \
+  /home/loganwyatt/chocolate-doom/src/doomtype.h \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/../config.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/inttypes.h \
@@ -19,7 +19,7 @@ src/CMakeFiles/chocolate-doom.dir/net_petname.c.o: \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/limits.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_misc.h \
+  /home/loganwyatt/chocolate-doom/src/m_misc.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stddef.h \

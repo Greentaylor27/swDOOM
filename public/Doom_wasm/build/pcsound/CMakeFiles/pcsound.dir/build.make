@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/loganwyatt/swDOOM/public/chocolate-doom
+CMAKE_SOURCE_DIR = /home/loganwyatt/chocolate-doom
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/loganwyatt/swDOOM/public/Doom_wasm/build
@@ -71,78 +71,78 @@ include pcsound/CMakeFiles/pcsound.dir/flags.make
 
 pcsound/CMakeFiles/pcsound.dir/pcsound.c.o: pcsound/CMakeFiles/pcsound.dir/flags.make
 pcsound/CMakeFiles/pcsound.dir/pcsound.c.o: pcsound/CMakeFiles/pcsound.dir/includes_C.rsp
-pcsound/CMakeFiles/pcsound.dir/pcsound.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound.c
+pcsound/CMakeFiles/pcsound.dir/pcsound.c.o: /home/loganwyatt/chocolate-doom/pcsound/pcsound.c
 pcsound/CMakeFiles/pcsound.dir/pcsound.c.o: pcsound/CMakeFiles/pcsound.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object pcsound/CMakeFiles/pcsound.dir/pcsound.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pcsound/CMakeFiles/pcsound.dir/pcsound.c.o -MF CMakeFiles/pcsound.dir/pcsound.c.o.d -o CMakeFiles/pcsound.dir/pcsound.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pcsound/CMakeFiles/pcsound.dir/pcsound.c.o -MF CMakeFiles/pcsound.dir/pcsound.c.o.d -o CMakeFiles/pcsound.dir/pcsound.c.o -c /home/loganwyatt/chocolate-doom/pcsound/pcsound.c
 
 pcsound/CMakeFiles/pcsound.dir/pcsound.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pcsound.dir/pcsound.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound.c > CMakeFiles/pcsound.dir/pcsound.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/pcsound/pcsound.c > CMakeFiles/pcsound.dir/pcsound.c.i
 
 pcsound/CMakeFiles/pcsound.dir/pcsound.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pcsound.dir/pcsound.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound.c -o CMakeFiles/pcsound.dir/pcsound.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/pcsound/pcsound.c -o CMakeFiles/pcsound.dir/pcsound.c.s
 
 pcsound/CMakeFiles/pcsound.dir/pcsound_bsd.c.o: pcsound/CMakeFiles/pcsound.dir/flags.make
 pcsound/CMakeFiles/pcsound.dir/pcsound_bsd.c.o: pcsound/CMakeFiles/pcsound.dir/includes_C.rsp
-pcsound/CMakeFiles/pcsound.dir/pcsound_bsd.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_bsd.c
+pcsound/CMakeFiles/pcsound.dir/pcsound_bsd.c.o: /home/loganwyatt/chocolate-doom/pcsound/pcsound_bsd.c
 pcsound/CMakeFiles/pcsound.dir/pcsound_bsd.c.o: pcsound/CMakeFiles/pcsound.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object pcsound/CMakeFiles/pcsound.dir/pcsound_bsd.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pcsound/CMakeFiles/pcsound.dir/pcsound_bsd.c.o -MF CMakeFiles/pcsound.dir/pcsound_bsd.c.o.d -o CMakeFiles/pcsound.dir/pcsound_bsd.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_bsd.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pcsound/CMakeFiles/pcsound.dir/pcsound_bsd.c.o -MF CMakeFiles/pcsound.dir/pcsound_bsd.c.o.d -o CMakeFiles/pcsound.dir/pcsound_bsd.c.o -c /home/loganwyatt/chocolate-doom/pcsound/pcsound_bsd.c
 
 pcsound/CMakeFiles/pcsound.dir/pcsound_bsd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pcsound.dir/pcsound_bsd.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_bsd.c > CMakeFiles/pcsound.dir/pcsound_bsd.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/pcsound/pcsound_bsd.c > CMakeFiles/pcsound.dir/pcsound_bsd.c.i
 
 pcsound/CMakeFiles/pcsound.dir/pcsound_bsd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pcsound.dir/pcsound_bsd.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_bsd.c -o CMakeFiles/pcsound.dir/pcsound_bsd.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/pcsound/pcsound_bsd.c -o CMakeFiles/pcsound.dir/pcsound_bsd.c.s
 
 pcsound/CMakeFiles/pcsound.dir/pcsound_sdl.c.o: pcsound/CMakeFiles/pcsound.dir/flags.make
 pcsound/CMakeFiles/pcsound.dir/pcsound_sdl.c.o: pcsound/CMakeFiles/pcsound.dir/includes_C.rsp
-pcsound/CMakeFiles/pcsound.dir/pcsound_sdl.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_sdl.c
+pcsound/CMakeFiles/pcsound.dir/pcsound_sdl.c.o: /home/loganwyatt/chocolate-doom/pcsound/pcsound_sdl.c
 pcsound/CMakeFiles/pcsound.dir/pcsound_sdl.c.o: pcsound/CMakeFiles/pcsound.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object pcsound/CMakeFiles/pcsound.dir/pcsound_sdl.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pcsound/CMakeFiles/pcsound.dir/pcsound_sdl.c.o -MF CMakeFiles/pcsound.dir/pcsound_sdl.c.o.d -o CMakeFiles/pcsound.dir/pcsound_sdl.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_sdl.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pcsound/CMakeFiles/pcsound.dir/pcsound_sdl.c.o -MF CMakeFiles/pcsound.dir/pcsound_sdl.c.o.d -o CMakeFiles/pcsound.dir/pcsound_sdl.c.o -c /home/loganwyatt/chocolate-doom/pcsound/pcsound_sdl.c
 
 pcsound/CMakeFiles/pcsound.dir/pcsound_sdl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pcsound.dir/pcsound_sdl.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_sdl.c > CMakeFiles/pcsound.dir/pcsound_sdl.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/pcsound/pcsound_sdl.c > CMakeFiles/pcsound.dir/pcsound_sdl.c.i
 
 pcsound/CMakeFiles/pcsound.dir/pcsound_sdl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pcsound.dir/pcsound_sdl.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_sdl.c -o CMakeFiles/pcsound.dir/pcsound_sdl.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/pcsound/pcsound_sdl.c -o CMakeFiles/pcsound.dir/pcsound_sdl.c.s
 
 pcsound/CMakeFiles/pcsound.dir/pcsound_linux.c.o: pcsound/CMakeFiles/pcsound.dir/flags.make
 pcsound/CMakeFiles/pcsound.dir/pcsound_linux.c.o: pcsound/CMakeFiles/pcsound.dir/includes_C.rsp
-pcsound/CMakeFiles/pcsound.dir/pcsound_linux.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_linux.c
+pcsound/CMakeFiles/pcsound.dir/pcsound_linux.c.o: /home/loganwyatt/chocolate-doom/pcsound/pcsound_linux.c
 pcsound/CMakeFiles/pcsound.dir/pcsound_linux.c.o: pcsound/CMakeFiles/pcsound.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object pcsound/CMakeFiles/pcsound.dir/pcsound_linux.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pcsound/CMakeFiles/pcsound.dir/pcsound_linux.c.o -MF CMakeFiles/pcsound.dir/pcsound_linux.c.o.d -o CMakeFiles/pcsound.dir/pcsound_linux.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_linux.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pcsound/CMakeFiles/pcsound.dir/pcsound_linux.c.o -MF CMakeFiles/pcsound.dir/pcsound_linux.c.o.d -o CMakeFiles/pcsound.dir/pcsound_linux.c.o -c /home/loganwyatt/chocolate-doom/pcsound/pcsound_linux.c
 
 pcsound/CMakeFiles/pcsound.dir/pcsound_linux.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pcsound.dir/pcsound_linux.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_linux.c > CMakeFiles/pcsound.dir/pcsound_linux.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/pcsound/pcsound_linux.c > CMakeFiles/pcsound.dir/pcsound_linux.c.i
 
 pcsound/CMakeFiles/pcsound.dir/pcsound_linux.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pcsound.dir/pcsound_linux.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_linux.c -o CMakeFiles/pcsound.dir/pcsound_linux.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/pcsound/pcsound_linux.c -o CMakeFiles/pcsound.dir/pcsound_linux.c.s
 
 pcsound/CMakeFiles/pcsound.dir/pcsound_win32.c.o: pcsound/CMakeFiles/pcsound.dir/flags.make
 pcsound/CMakeFiles/pcsound.dir/pcsound_win32.c.o: pcsound/CMakeFiles/pcsound.dir/includes_C.rsp
-pcsound/CMakeFiles/pcsound.dir/pcsound_win32.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_win32.c
+pcsound/CMakeFiles/pcsound.dir/pcsound_win32.c.o: /home/loganwyatt/chocolate-doom/pcsound/pcsound_win32.c
 pcsound/CMakeFiles/pcsound.dir/pcsound_win32.c.o: pcsound/CMakeFiles/pcsound.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object pcsound/CMakeFiles/pcsound.dir/pcsound_win32.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pcsound/CMakeFiles/pcsound.dir/pcsound_win32.c.o -MF CMakeFiles/pcsound.dir/pcsound_win32.c.o.d -o CMakeFiles/pcsound.dir/pcsound_win32.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_win32.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pcsound/CMakeFiles/pcsound.dir/pcsound_win32.c.o -MF CMakeFiles/pcsound.dir/pcsound_win32.c.o.d -o CMakeFiles/pcsound.dir/pcsound_win32.c.o -c /home/loganwyatt/chocolate-doom/pcsound/pcsound_win32.c
 
 pcsound/CMakeFiles/pcsound.dir/pcsound_win32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pcsound.dir/pcsound_win32.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_win32.c > CMakeFiles/pcsound.dir/pcsound_win32.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/pcsound/pcsound_win32.c > CMakeFiles/pcsound.dir/pcsound_win32.c.i
 
 pcsound/CMakeFiles/pcsound.dir/pcsound_win32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pcsound.dir/pcsound_win32.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_win32.c -o CMakeFiles/pcsound.dir/pcsound_win32.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/pcsound/pcsound_win32.c -o CMakeFiles/pcsound.dir/pcsound_win32.c.s
 
 # Object files for target pcsound
 pcsound_OBJECTS = \
@@ -175,6 +175,6 @@ pcsound/CMakeFiles/pcsound.dir/clean:
 .PHONY : pcsound/CMakeFiles/pcsound.dir/clean
 
 pcsound/CMakeFiles/pcsound.dir/depend:
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/loganwyatt/swDOOM/public/chocolate-doom /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound /home/loganwyatt/swDOOM/public/Doom_wasm/build /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound/CMakeFiles/pcsound.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/loganwyatt/chocolate-doom /home/loganwyatt/chocolate-doom/pcsound /home/loganwyatt/swDOOM/public/Doom_wasm/build /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound/CMakeFiles/pcsound.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pcsound/CMakeFiles/pcsound.dir/depend
 

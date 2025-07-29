@@ -1,5 +1,5 @@
 textscreen/CMakeFiles/textscreen.dir/txt_scrollpane.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_scrollpane.c \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_scrollpane.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/ctype.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/ctype.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/features.h \
@@ -18,12 +18,12 @@ textscreen/CMakeFiles/textscreen.dir/txt_scrollpane.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/math.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/math.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_scrollpane.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_widget.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_gui.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_io.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_main.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_sdl.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_scrollpane.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_widget.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_gui.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_io.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_main.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_sdl.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_main.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_stdinc.h \
@@ -85,5 +85,5 @@ textscreen/CMakeFiles/textscreen.dir/txt_scrollpane.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_version.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_locale.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_misc.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_table.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/../src/doomkeys.h
+  /home/loganwyatt/chocolate-doom/textscreen/txt_table.h \
+  /home/loganwyatt/chocolate-doom/textscreen/../src/doomkeys.h

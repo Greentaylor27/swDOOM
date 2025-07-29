@@ -1,1 +1,1 @@
--I/home/loganwyatt/swDOOM/public/Doom_wasm/build/src/.. -I/home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/. -I/home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/. -I/home/loganwyatt/swDOOM/public/chocolate-doom/opl/.
+-I/home/loganwyatt/swDOOM/public/Doom_wasm/build/src/.. -I/home/loganwyatt/chocolate-doom/textscreen/. -I/home/loganwyatt/chocolate-doom/pcsound/. -I/home/loganwyatt/chocolate-doom/opl/.

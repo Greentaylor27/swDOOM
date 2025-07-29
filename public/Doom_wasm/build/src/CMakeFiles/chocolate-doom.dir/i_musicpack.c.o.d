@@ -1,5 +1,5 @@
 src/CMakeFiles/chocolate-doom.dir/i_musicpack.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_musicpack.c \
+  /home/loganwyatt/chocolate-doom/src/i_musicpack.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stddef.h \
@@ -79,31 +79,31 @@ src/CMakeFiles/chocolate-doom.dir/i_musicpack.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_version.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_locale.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_misc.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_glob.h \
+  /home/loganwyatt/chocolate-doom/src/i_glob.h \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/../config.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doomtype.h \
+  /home/loganwyatt/chocolate-doom/src/doomtype.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stdbool.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/limits.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/memio.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/mus2mid.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_str.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/gusconf.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_sound.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_mode.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_system.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_ticcmd.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_event.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_swap.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_argv.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_config.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_misc.h \
+  /home/loganwyatt/chocolate-doom/src/memio.h \
+  /home/loganwyatt/chocolate-doom/src/mus2mid.h \
+  /home/loganwyatt/chocolate-doom/src/deh_str.h \
+  /home/loganwyatt/chocolate-doom/src/gusconf.h \
+  /home/loganwyatt/chocolate-doom/src/i_sound.h \
+  /home/loganwyatt/chocolate-doom/src/d_mode.h \
+  /home/loganwyatt/chocolate-doom/src/i_system.h \
+  /home/loganwyatt/chocolate-doom/src/d_ticcmd.h \
+  /home/loganwyatt/chocolate-doom/src/d_event.h \
+  /home/loganwyatt/chocolate-doom/src/i_swap.h \
+  /home/loganwyatt/chocolate-doom/src/m_argv.h \
+  /home/loganwyatt/chocolate-doom/src/m_config.h \
+  /home/loganwyatt/chocolate-doom/src/m_misc.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/sys/stat.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/sys/stat.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/stat.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/sha1.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_wad.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/z_zone.h \
+  /home/loganwyatt/chocolate-doom/src/sha1.h \
+  /home/loganwyatt/chocolate-doom/src/w_wad.h \
+  /home/loganwyatt/chocolate-doom/src/w_file.h \
+  /home/loganwyatt/chocolate-doom/src/z_zone.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_mixer.h

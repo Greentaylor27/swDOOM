@@ -1,11 +1,11 @@
 src/CMakeFiles/chocolate-doom.dir/aes_prng.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/aes_prng.c \
+  /home/loganwyatt/chocolate-doom/src/aes_prng.c \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stdint.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdint.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/alltypes.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/stdint.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/aes_prng.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doomtype.h \
+  /home/loganwyatt/chocolate-doom/src/aes_prng.h \
+  /home/loganwyatt/chocolate-doom/src/doomtype.h \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/../config.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/inttypes.h \
@@ -15,7 +15,7 @@ src/CMakeFiles/chocolate-doom.dir/aes_prng.c.o: \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/limits.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_swap.h \
+  /home/loganwyatt/chocolate-doom/src/i_swap.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_endian.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_stdinc.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_config.h \

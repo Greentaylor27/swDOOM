@@ -1,4 +1,4 @@
-1 ICON "/home/loganwyatt/swDOOM/public/chocolate-doom/data/setup.ico"
+1 ICON "/home/loganwyatt/chocolate-doom/data/setup.ico"
 
 1 24 MOVEABLE PURE "/home/loganwyatt/swDOOM/public/Doom_wasm/build/src/setup/setup-manifest.xml"
 

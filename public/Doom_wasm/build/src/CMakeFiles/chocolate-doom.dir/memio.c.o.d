@@ -1,5 +1,5 @@
 src/CMakeFiles/chocolate-doom.dir/memio.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/memio.c \
+  /home/loganwyatt/chocolate-doom/src/memio.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stddef.h \
@@ -14,5 +14,5 @@ src/CMakeFiles/chocolate-doom.dir/memio.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/string.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/string.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/memio.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/z_zone.h
+  /home/loganwyatt/chocolate-doom/src/memio.h \
+  /home/loganwyatt/chocolate-doom/src/z_zone.h

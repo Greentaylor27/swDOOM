@@ -1,5 +1,5 @@
 src/CMakeFiles/chocolate-doom.dir/m_misc.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_misc.c \
+  /home/loganwyatt/chocolate-doom/src/m_misc.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stddef.h \
@@ -21,7 +21,7 @@ src/CMakeFiles/chocolate-doom.dir/m_misc.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/sys/types.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/endian.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/sys/select.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doomtype.h \
+  /home/loganwyatt/chocolate-doom/src/doomtype.h \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/../config.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/inttypes.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/inttypes.h \
@@ -29,13 +29,13 @@ src/CMakeFiles/chocolate-doom.dir/m_misc.c.o: \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/limits.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_system.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_ticcmd.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_event.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_misc.h \
+  /home/loganwyatt/chocolate-doom/src/i_system.h \
+  /home/loganwyatt/chocolate-doom/src/d_ticcmd.h \
+  /home/loganwyatt/chocolate-doom/src/d_event.h \
+  /home/loganwyatt/chocolate-doom/src/m_misc.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/stdarg.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stdarg.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/sys/stat.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/sys/stat.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/stat.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/z_zone.h
+  /home/loganwyatt/chocolate-doom/src/z_zone.h

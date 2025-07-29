@@ -1,5 +1,5 @@
 opl/CMakeFiles/opl.dir/opl_timer.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_timer.c \
+  /home/loganwyatt/chocolate-doom/opl/opl_timer.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_main.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_stdinc.h \
@@ -79,6 +79,6 @@ opl/CMakeFiles/opl.dir/opl_timer.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_version.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_locale.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_misc.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_timer.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_queue.h
+  /home/loganwyatt/chocolate-doom/opl/opl_timer.h \
+  /home/loganwyatt/chocolate-doom/opl/opl.h \
+  /home/loganwyatt/chocolate-doom/opl/opl_queue.h

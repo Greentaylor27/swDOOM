@@ -1,7 +1,7 @@
 src/CMakeFiles/chocolate-doom.dir/tables.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/tables.c \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/tables.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doomtype.h \
+  /home/loganwyatt/chocolate-doom/src/tables.c \
+  /home/loganwyatt/chocolate-doom/src/tables.h \
+  /home/loganwyatt/chocolate-doom/src/doomtype.h \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/../config.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/alltypes.h \
@@ -15,4 +15,4 @@ src/CMakeFiles/chocolate-doom.dir/tables.c.o: \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/limits.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_fixed.h
+  /home/loganwyatt/chocolate-doom/src/m_fixed.h

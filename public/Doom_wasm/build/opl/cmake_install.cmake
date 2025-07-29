@@ -1,4 +1,4 @@
-# Install script for directory: /home/loganwyatt/swDOOM/public/chocolate-doom/opl
+# Install script for directory: /home/loganwyatt/chocolate-doom/opl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

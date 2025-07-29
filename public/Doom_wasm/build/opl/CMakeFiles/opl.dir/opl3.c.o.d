@@ -1,5 +1,5 @@
 opl/CMakeFiles/opl.dir/opl3.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl3.c \
+  /home/loganwyatt/chocolate-doom/opl/opl3.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stddef.h \
@@ -14,6 +14,6 @@ opl/CMakeFiles/opl.dir/opl3.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/string.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/string.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl3.h \
+  /home/loganwyatt/chocolate-doom/opl/opl3.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/inttypes.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/inttypes.h

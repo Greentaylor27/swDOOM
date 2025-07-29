@@ -1,6 +1,6 @@
 src/CMakeFiles/chocolate-doom.dir/v_diskicon.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/v_diskicon.c \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doomtype.h \
+  /home/loganwyatt/chocolate-doom/src/v_diskicon.c \
+  /home/loganwyatt/chocolate-doom/src/doomtype.h \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/../config.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/alltypes.h \
@@ -14,11 +14,11 @@ src/CMakeFiles/chocolate-doom.dir/v_diskicon.c.o: \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/limits.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_str.h \
+  /home/loganwyatt/chocolate-doom/src/deh_str.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stddef.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_swap.h \
+  /home/loganwyatt/chocolate-doom/src/i_swap.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_endian.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_stdinc.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_config.h \
@@ -42,11 +42,11 @@ src/CMakeFiles/chocolate-doom.dir/v_diskicon.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/ctype.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/math.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/math.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_video.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_argv.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/v_video.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/v_patch.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_wad.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/z_zone.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/v_diskicon.h
+  /home/loganwyatt/chocolate-doom/src/i_video.h \
+  /home/loganwyatt/chocolate-doom/src/m_argv.h \
+  /home/loganwyatt/chocolate-doom/src/v_video.h \
+  /home/loganwyatt/chocolate-doom/src/v_patch.h \
+  /home/loganwyatt/chocolate-doom/src/w_wad.h \
+  /home/loganwyatt/chocolate-doom/src/w_file.h \
+  /home/loganwyatt/chocolate-doom/src/z_zone.h \
+  /home/loganwyatt/chocolate-doom/src/v_diskicon.h

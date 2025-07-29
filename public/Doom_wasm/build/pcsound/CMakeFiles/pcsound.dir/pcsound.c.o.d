@@ -1,5 +1,5 @@
 pcsound/CMakeFiles/pcsound.dir/pcsound.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound.c \
+  /home/loganwyatt/chocolate-doom/pcsound/pcsound.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stddef.h \
@@ -15,5 +15,5 @@ pcsound/CMakeFiles/pcsound.dir/pcsound.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/string.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound/../config.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_internal.h
+  /home/loganwyatt/chocolate-doom/pcsound/pcsound.h \
+  /home/loganwyatt/chocolate-doom/pcsound/pcsound_internal.h

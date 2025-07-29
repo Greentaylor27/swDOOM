@@ -1,11 +1,11 @@
 src/doom/CMakeFiles/doom.dir/sounds.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doom/sounds.c \
+  /home/loganwyatt/chocolate-doom/src/doom/sounds.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/stdlib.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdlib.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/features.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/alltypes.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/alloca.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doom/../doomtype.h \
+  /home/loganwyatt/chocolate-doom/src/doom/../doomtype.h \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/doom/../../config.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/inttypes.h \
@@ -17,6 +17,6 @@ src/doom/CMakeFiles/doom.dir/sounds.c.o: \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/limits.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doom/sounds.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doom/../i_sound.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doom/../d_mode.h
+  /home/loganwyatt/chocolate-doom/src/doom/sounds.h \
+  /home/loganwyatt/chocolate-doom/src/doom/../i_sound.h \
+  /home/loganwyatt/chocolate-doom/src/doom/../d_mode.h

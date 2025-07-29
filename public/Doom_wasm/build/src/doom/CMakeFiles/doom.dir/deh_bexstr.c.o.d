@@ -1,5 +1,5 @@
 src/doom/CMakeFiles/doom.dir/deh_bexstr.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doom/deh_bexstr.c \
+  /home/loganwyatt/chocolate-doom/src/doom/deh_bexstr.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stddef.h \
@@ -11,9 +11,9 @@ src/doom/CMakeFiles/doom.dir/deh_bexstr.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/string.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/string.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doom/../deh_defs.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doom/../sha1.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doom/../doomtype.h \
+  /home/loganwyatt/chocolate-doom/src/doom/../deh_defs.h \
+  /home/loganwyatt/chocolate-doom/src/doom/../sha1.h \
+  /home/loganwyatt/chocolate-doom/src/doom/../doomtype.h \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/doom/../../config.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/inttypes.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/inttypes.h \
@@ -21,8 +21,8 @@ src/doom/CMakeFiles/doom.dir/deh_bexstr.c.o: \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/limits.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doom/../deh_io.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doom/../deh_main.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doom/../deh_str.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doom/dstrings.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doom/d_englsh.h
+  /home/loganwyatt/chocolate-doom/src/doom/../deh_io.h \
+  /home/loganwyatt/chocolate-doom/src/doom/../deh_main.h \
+  /home/loganwyatt/chocolate-doom/src/doom/../deh_str.h \
+  /home/loganwyatt/chocolate-doom/src/doom/dstrings.h \
+  /home/loganwyatt/chocolate-doom/src/doom/d_englsh.h

@@ -221,7 +221,7 @@ Chocolate Doom_BINARY_DIR:STATIC=/home/loganwyatt/swDOOM/public/Doom_wasm/build
 Chocolate Doom_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-Chocolate Doom_SOURCE_DIR:STATIC=/home/loganwyatt/swDOOM/public/chocolate-doom
+Chocolate Doom_SOURCE_DIR:STATIC=/home/loganwyatt/chocolate-doom
 
 //If true, we are targeting Emscripten output.
 EMSCRIPTEN:BOOL=1
@@ -354,7 +354,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/loganwyatt/swDOOM/public/chocolate-doom
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/loganwyatt/chocolate-doom
 //ADVANCED property for variable: CMAKE_LINKER
 CMAKE_LINKER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MAKE_PROGRAM

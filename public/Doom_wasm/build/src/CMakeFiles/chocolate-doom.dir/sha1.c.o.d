@@ -1,5 +1,5 @@
 src/CMakeFiles/chocolate-doom.dir/sha1.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/sha1.c \
+  /home/loganwyatt/chocolate-doom/src/sha1.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stddef.h \
@@ -15,7 +15,7 @@ src/CMakeFiles/chocolate-doom.dir/sha1.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/string.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/assert.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_swap.h \
+  /home/loganwyatt/chocolate-doom/src/i_swap.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_endian.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_stdinc.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_config.h \
@@ -36,8 +36,8 @@ src/CMakeFiles/chocolate-doom.dir/sha1.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/ctype.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/math.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/math.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/sha1.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doomtype.h \
+  /home/loganwyatt/chocolate-doom/src/sha1.h \
+  /home/loganwyatt/chocolate-doom/src/doomtype.h \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/../config.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stdbool.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/limits.h \

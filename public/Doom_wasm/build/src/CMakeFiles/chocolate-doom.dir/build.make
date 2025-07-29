@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/loganwyatt/swDOOM/public/chocolate-doom
+CMAKE_SOURCE_DIR = /home/loganwyatt/chocolate-doom
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/loganwyatt/swDOOM/public/Doom_wasm/build
@@ -71,978 +71,978 @@ include src/CMakeFiles/chocolate-doom.dir/flags.make
 
 src/CMakeFiles/chocolate-doom.dir/i_main.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/i_main.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/i_main.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_main.c
+src/CMakeFiles/chocolate-doom.dir/i_main.c.o: /home/loganwyatt/chocolate-doom/src/i_main.c
 src/CMakeFiles/chocolate-doom.dir/i_main.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/chocolate-doom.dir/i_main.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_main.c.o -MF CMakeFiles/chocolate-doom.dir/i_main.c.o.d -o CMakeFiles/chocolate-doom.dir/i_main.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_main.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_main.c.o -MF CMakeFiles/chocolate-doom.dir/i_main.c.o.d -o CMakeFiles/chocolate-doom.dir/i_main.c.o -c /home/loganwyatt/chocolate-doom/src/i_main.c
 
 src/CMakeFiles/chocolate-doom.dir/i_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/i_main.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_main.c > CMakeFiles/chocolate-doom.dir/i_main.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/i_main.c > CMakeFiles/chocolate-doom.dir/i_main.c.i
 
 src/CMakeFiles/chocolate-doom.dir/i_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/i_main.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_main.c -o CMakeFiles/chocolate-doom.dir/i_main.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/i_main.c -o CMakeFiles/chocolate-doom.dir/i_main.c.s
 
 src/CMakeFiles/chocolate-doom.dir/i_system.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/i_system.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/i_system.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_system.c
+src/CMakeFiles/chocolate-doom.dir/i_system.c.o: /home/loganwyatt/chocolate-doom/src/i_system.c
 src/CMakeFiles/chocolate-doom.dir/i_system.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/chocolate-doom.dir/i_system.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_system.c.o -MF CMakeFiles/chocolate-doom.dir/i_system.c.o.d -o CMakeFiles/chocolate-doom.dir/i_system.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_system.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_system.c.o -MF CMakeFiles/chocolate-doom.dir/i_system.c.o.d -o CMakeFiles/chocolate-doom.dir/i_system.c.o -c /home/loganwyatt/chocolate-doom/src/i_system.c
 
 src/CMakeFiles/chocolate-doom.dir/i_system.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/i_system.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_system.c > CMakeFiles/chocolate-doom.dir/i_system.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/i_system.c > CMakeFiles/chocolate-doom.dir/i_system.c.i
 
 src/CMakeFiles/chocolate-doom.dir/i_system.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/i_system.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_system.c -o CMakeFiles/chocolate-doom.dir/i_system.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/i_system.c -o CMakeFiles/chocolate-doom.dir/i_system.c.s
 
 src/CMakeFiles/chocolate-doom.dir/m_argv.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/m_argv.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/m_argv.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_argv.c
+src/CMakeFiles/chocolate-doom.dir/m_argv.c.o: /home/loganwyatt/chocolate-doom/src/m_argv.c
 src/CMakeFiles/chocolate-doom.dir/m_argv.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/CMakeFiles/chocolate-doom.dir/m_argv.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/m_argv.c.o -MF CMakeFiles/chocolate-doom.dir/m_argv.c.o.d -o CMakeFiles/chocolate-doom.dir/m_argv.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_argv.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/m_argv.c.o -MF CMakeFiles/chocolate-doom.dir/m_argv.c.o.d -o CMakeFiles/chocolate-doom.dir/m_argv.c.o -c /home/loganwyatt/chocolate-doom/src/m_argv.c
 
 src/CMakeFiles/chocolate-doom.dir/m_argv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/m_argv.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_argv.c > CMakeFiles/chocolate-doom.dir/m_argv.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/m_argv.c > CMakeFiles/chocolate-doom.dir/m_argv.c.i
 
 src/CMakeFiles/chocolate-doom.dir/m_argv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/m_argv.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_argv.c -o CMakeFiles/chocolate-doom.dir/m_argv.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/m_argv.c -o CMakeFiles/chocolate-doom.dir/m_argv.c.s
 
 src/CMakeFiles/chocolate-doom.dir/m_misc.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/m_misc.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/m_misc.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_misc.c
+src/CMakeFiles/chocolate-doom.dir/m_misc.c.o: /home/loganwyatt/chocolate-doom/src/m_misc.c
 src/CMakeFiles/chocolate-doom.dir/m_misc.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/chocolate-doom.dir/m_misc.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/m_misc.c.o -MF CMakeFiles/chocolate-doom.dir/m_misc.c.o.d -o CMakeFiles/chocolate-doom.dir/m_misc.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_misc.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/m_misc.c.o -MF CMakeFiles/chocolate-doom.dir/m_misc.c.o.d -o CMakeFiles/chocolate-doom.dir/m_misc.c.o -c /home/loganwyatt/chocolate-doom/src/m_misc.c
 
 src/CMakeFiles/chocolate-doom.dir/m_misc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/m_misc.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_misc.c > CMakeFiles/chocolate-doom.dir/m_misc.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/m_misc.c > CMakeFiles/chocolate-doom.dir/m_misc.c.i
 
 src/CMakeFiles/chocolate-doom.dir/m_misc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/m_misc.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_misc.c -o CMakeFiles/chocolate-doom.dir/m_misc.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/m_misc.c -o CMakeFiles/chocolate-doom.dir/m_misc.c.s
 
 src/CMakeFiles/chocolate-doom.dir/aes_prng.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/aes_prng.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/aes_prng.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/aes_prng.c
+src/CMakeFiles/chocolate-doom.dir/aes_prng.c.o: /home/loganwyatt/chocolate-doom/src/aes_prng.c
 src/CMakeFiles/chocolate-doom.dir/aes_prng.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/CMakeFiles/chocolate-doom.dir/aes_prng.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/aes_prng.c.o -MF CMakeFiles/chocolate-doom.dir/aes_prng.c.o.d -o CMakeFiles/chocolate-doom.dir/aes_prng.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/aes_prng.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/aes_prng.c.o -MF CMakeFiles/chocolate-doom.dir/aes_prng.c.o.d -o CMakeFiles/chocolate-doom.dir/aes_prng.c.o -c /home/loganwyatt/chocolate-doom/src/aes_prng.c
 
 src/CMakeFiles/chocolate-doom.dir/aes_prng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/aes_prng.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/aes_prng.c > CMakeFiles/chocolate-doom.dir/aes_prng.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/aes_prng.c > CMakeFiles/chocolate-doom.dir/aes_prng.c.i
 
 src/CMakeFiles/chocolate-doom.dir/aes_prng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/aes_prng.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/aes_prng.c -o CMakeFiles/chocolate-doom.dir/aes_prng.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/aes_prng.c -o CMakeFiles/chocolate-doom.dir/aes_prng.c.s
 
 src/CMakeFiles/chocolate-doom.dir/d_event.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/d_event.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/d_event.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_event.c
+src/CMakeFiles/chocolate-doom.dir/d_event.c.o: /home/loganwyatt/chocolate-doom/src/d_event.c
 src/CMakeFiles/chocolate-doom.dir/d_event.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/CMakeFiles/chocolate-doom.dir/d_event.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/d_event.c.o -MF CMakeFiles/chocolate-doom.dir/d_event.c.o.d -o CMakeFiles/chocolate-doom.dir/d_event.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_event.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/d_event.c.o -MF CMakeFiles/chocolate-doom.dir/d_event.c.o.d -o CMakeFiles/chocolate-doom.dir/d_event.c.o -c /home/loganwyatt/chocolate-doom/src/d_event.c
 
 src/CMakeFiles/chocolate-doom.dir/d_event.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/d_event.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_event.c > CMakeFiles/chocolate-doom.dir/d_event.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/d_event.c > CMakeFiles/chocolate-doom.dir/d_event.c.i
 
 src/CMakeFiles/chocolate-doom.dir/d_event.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/d_event.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_event.c -o CMakeFiles/chocolate-doom.dir/d_event.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/d_event.c -o CMakeFiles/chocolate-doom.dir/d_event.c.s
 
 src/CMakeFiles/chocolate-doom.dir/d_iwad.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/d_iwad.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/d_iwad.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_iwad.c
+src/CMakeFiles/chocolate-doom.dir/d_iwad.c.o: /home/loganwyatt/chocolate-doom/src/d_iwad.c
 src/CMakeFiles/chocolate-doom.dir/d_iwad.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/CMakeFiles/chocolate-doom.dir/d_iwad.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/d_iwad.c.o -MF CMakeFiles/chocolate-doom.dir/d_iwad.c.o.d -o CMakeFiles/chocolate-doom.dir/d_iwad.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_iwad.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/d_iwad.c.o -MF CMakeFiles/chocolate-doom.dir/d_iwad.c.o.d -o CMakeFiles/chocolate-doom.dir/d_iwad.c.o -c /home/loganwyatt/chocolate-doom/src/d_iwad.c
 
 src/CMakeFiles/chocolate-doom.dir/d_iwad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/d_iwad.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_iwad.c > CMakeFiles/chocolate-doom.dir/d_iwad.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/d_iwad.c > CMakeFiles/chocolate-doom.dir/d_iwad.c.i
 
 src/CMakeFiles/chocolate-doom.dir/d_iwad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/d_iwad.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_iwad.c -o CMakeFiles/chocolate-doom.dir/d_iwad.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/d_iwad.c -o CMakeFiles/chocolate-doom.dir/d_iwad.c.s
 
 src/CMakeFiles/chocolate-doom.dir/d_loop.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/d_loop.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/d_loop.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_loop.c
+src/CMakeFiles/chocolate-doom.dir/d_loop.c.o: /home/loganwyatt/chocolate-doom/src/d_loop.c
 src/CMakeFiles/chocolate-doom.dir/d_loop.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/CMakeFiles/chocolate-doom.dir/d_loop.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/d_loop.c.o -MF CMakeFiles/chocolate-doom.dir/d_loop.c.o.d -o CMakeFiles/chocolate-doom.dir/d_loop.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_loop.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/d_loop.c.o -MF CMakeFiles/chocolate-doom.dir/d_loop.c.o.d -o CMakeFiles/chocolate-doom.dir/d_loop.c.o -c /home/loganwyatt/chocolate-doom/src/d_loop.c
 
 src/CMakeFiles/chocolate-doom.dir/d_loop.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/d_loop.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_loop.c > CMakeFiles/chocolate-doom.dir/d_loop.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/d_loop.c > CMakeFiles/chocolate-doom.dir/d_loop.c.i
 
 src/CMakeFiles/chocolate-doom.dir/d_loop.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/d_loop.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_loop.c -o CMakeFiles/chocolate-doom.dir/d_loop.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/d_loop.c -o CMakeFiles/chocolate-doom.dir/d_loop.c.s
 
 src/CMakeFiles/chocolate-doom.dir/d_mode.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/d_mode.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/d_mode.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_mode.c
+src/CMakeFiles/chocolate-doom.dir/d_mode.c.o: /home/loganwyatt/chocolate-doom/src/d_mode.c
 src/CMakeFiles/chocolate-doom.dir/d_mode.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/CMakeFiles/chocolate-doom.dir/d_mode.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/d_mode.c.o -MF CMakeFiles/chocolate-doom.dir/d_mode.c.o.d -o CMakeFiles/chocolate-doom.dir/d_mode.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_mode.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/d_mode.c.o -MF CMakeFiles/chocolate-doom.dir/d_mode.c.o.d -o CMakeFiles/chocolate-doom.dir/d_mode.c.o -c /home/loganwyatt/chocolate-doom/src/d_mode.c
 
 src/CMakeFiles/chocolate-doom.dir/d_mode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/d_mode.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_mode.c > CMakeFiles/chocolate-doom.dir/d_mode.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/d_mode.c > CMakeFiles/chocolate-doom.dir/d_mode.c.i
 
 src/CMakeFiles/chocolate-doom.dir/d_mode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/d_mode.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_mode.c -o CMakeFiles/chocolate-doom.dir/d_mode.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/d_mode.c -o CMakeFiles/chocolate-doom.dir/d_mode.c.s
 
 src/CMakeFiles/chocolate-doom.dir/deh_str.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/deh_str.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/deh_str.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_str.c
+src/CMakeFiles/chocolate-doom.dir/deh_str.c.o: /home/loganwyatt/chocolate-doom/src/deh_str.c
 src/CMakeFiles/chocolate-doom.dir/deh_str.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/CMakeFiles/chocolate-doom.dir/deh_str.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/deh_str.c.o -MF CMakeFiles/chocolate-doom.dir/deh_str.c.o.d -o CMakeFiles/chocolate-doom.dir/deh_str.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_str.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/deh_str.c.o -MF CMakeFiles/chocolate-doom.dir/deh_str.c.o.d -o CMakeFiles/chocolate-doom.dir/deh_str.c.o -c /home/loganwyatt/chocolate-doom/src/deh_str.c
 
 src/CMakeFiles/chocolate-doom.dir/deh_str.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/deh_str.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_str.c > CMakeFiles/chocolate-doom.dir/deh_str.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/deh_str.c > CMakeFiles/chocolate-doom.dir/deh_str.c.i
 
 src/CMakeFiles/chocolate-doom.dir/deh_str.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/deh_str.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_str.c -o CMakeFiles/chocolate-doom.dir/deh_str.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/deh_str.c -o CMakeFiles/chocolate-doom.dir/deh_str.c.s
 
 src/CMakeFiles/chocolate-doom.dir/gusconf.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/gusconf.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/gusconf.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/gusconf.c
+src/CMakeFiles/chocolate-doom.dir/gusconf.c.o: /home/loganwyatt/chocolate-doom/src/gusconf.c
 src/CMakeFiles/chocolate-doom.dir/gusconf.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/CMakeFiles/chocolate-doom.dir/gusconf.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/gusconf.c.o -MF CMakeFiles/chocolate-doom.dir/gusconf.c.o.d -o CMakeFiles/chocolate-doom.dir/gusconf.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/gusconf.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/gusconf.c.o -MF CMakeFiles/chocolate-doom.dir/gusconf.c.o.d -o CMakeFiles/chocolate-doom.dir/gusconf.c.o -c /home/loganwyatt/chocolate-doom/src/gusconf.c
 
 src/CMakeFiles/chocolate-doom.dir/gusconf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/gusconf.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/gusconf.c > CMakeFiles/chocolate-doom.dir/gusconf.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/gusconf.c > CMakeFiles/chocolate-doom.dir/gusconf.c.i
 
 src/CMakeFiles/chocolate-doom.dir/gusconf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/gusconf.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/gusconf.c -o CMakeFiles/chocolate-doom.dir/gusconf.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/gusconf.c -o CMakeFiles/chocolate-doom.dir/gusconf.c.s
 
 src/CMakeFiles/chocolate-doom.dir/i_cdmus.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/i_cdmus.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/i_cdmus.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_cdmus.c
+src/CMakeFiles/chocolate-doom.dir/i_cdmus.c.o: /home/loganwyatt/chocolate-doom/src/i_cdmus.c
 src/CMakeFiles/chocolate-doom.dir/i_cdmus.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/CMakeFiles/chocolate-doom.dir/i_cdmus.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_cdmus.c.o -MF CMakeFiles/chocolate-doom.dir/i_cdmus.c.o.d -o CMakeFiles/chocolate-doom.dir/i_cdmus.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_cdmus.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_cdmus.c.o -MF CMakeFiles/chocolate-doom.dir/i_cdmus.c.o.d -o CMakeFiles/chocolate-doom.dir/i_cdmus.c.o -c /home/loganwyatt/chocolate-doom/src/i_cdmus.c
 
 src/CMakeFiles/chocolate-doom.dir/i_cdmus.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/i_cdmus.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_cdmus.c > CMakeFiles/chocolate-doom.dir/i_cdmus.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/i_cdmus.c > CMakeFiles/chocolate-doom.dir/i_cdmus.c.i
 
 src/CMakeFiles/chocolate-doom.dir/i_cdmus.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/i_cdmus.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_cdmus.c -o CMakeFiles/chocolate-doom.dir/i_cdmus.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/i_cdmus.c -o CMakeFiles/chocolate-doom.dir/i_cdmus.c.s
 
 src/CMakeFiles/chocolate-doom.dir/i_endoom.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/i_endoom.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/i_endoom.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_endoom.c
+src/CMakeFiles/chocolate-doom.dir/i_endoom.c.o: /home/loganwyatt/chocolate-doom/src/i_endoom.c
 src/CMakeFiles/chocolate-doom.dir/i_endoom.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/CMakeFiles/chocolate-doom.dir/i_endoom.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_endoom.c.o -MF CMakeFiles/chocolate-doom.dir/i_endoom.c.o.d -o CMakeFiles/chocolate-doom.dir/i_endoom.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_endoom.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_endoom.c.o -MF CMakeFiles/chocolate-doom.dir/i_endoom.c.o.d -o CMakeFiles/chocolate-doom.dir/i_endoom.c.o -c /home/loganwyatt/chocolate-doom/src/i_endoom.c
 
 src/CMakeFiles/chocolate-doom.dir/i_endoom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/i_endoom.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_endoom.c > CMakeFiles/chocolate-doom.dir/i_endoom.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/i_endoom.c > CMakeFiles/chocolate-doom.dir/i_endoom.c.i
 
 src/CMakeFiles/chocolate-doom.dir/i_endoom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/i_endoom.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_endoom.c -o CMakeFiles/chocolate-doom.dir/i_endoom.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/i_endoom.c -o CMakeFiles/chocolate-doom.dir/i_endoom.c.s
 
 src/CMakeFiles/chocolate-doom.dir/i_flmusic.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/i_flmusic.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/i_flmusic.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_flmusic.c
+src/CMakeFiles/chocolate-doom.dir/i_flmusic.c.o: /home/loganwyatt/chocolate-doom/src/i_flmusic.c
 src/CMakeFiles/chocolate-doom.dir/i_flmusic.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/CMakeFiles/chocolate-doom.dir/i_flmusic.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_flmusic.c.o -MF CMakeFiles/chocolate-doom.dir/i_flmusic.c.o.d -o CMakeFiles/chocolate-doom.dir/i_flmusic.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_flmusic.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_flmusic.c.o -MF CMakeFiles/chocolate-doom.dir/i_flmusic.c.o.d -o CMakeFiles/chocolate-doom.dir/i_flmusic.c.o -c /home/loganwyatt/chocolate-doom/src/i_flmusic.c
 
 src/CMakeFiles/chocolate-doom.dir/i_flmusic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/i_flmusic.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_flmusic.c > CMakeFiles/chocolate-doom.dir/i_flmusic.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/i_flmusic.c > CMakeFiles/chocolate-doom.dir/i_flmusic.c.i
 
 src/CMakeFiles/chocolate-doom.dir/i_flmusic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/i_flmusic.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_flmusic.c -o CMakeFiles/chocolate-doom.dir/i_flmusic.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/i_flmusic.c -o CMakeFiles/chocolate-doom.dir/i_flmusic.c.s
 
 src/CMakeFiles/chocolate-doom.dir/i_glob.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/i_glob.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/i_glob.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_glob.c
+src/CMakeFiles/chocolate-doom.dir/i_glob.c.o: /home/loganwyatt/chocolate-doom/src/i_glob.c
 src/CMakeFiles/chocolate-doom.dir/i_glob.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/CMakeFiles/chocolate-doom.dir/i_glob.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_glob.c.o -MF CMakeFiles/chocolate-doom.dir/i_glob.c.o.d -o CMakeFiles/chocolate-doom.dir/i_glob.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_glob.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_glob.c.o -MF CMakeFiles/chocolate-doom.dir/i_glob.c.o.d -o CMakeFiles/chocolate-doom.dir/i_glob.c.o -c /home/loganwyatt/chocolate-doom/src/i_glob.c
 
 src/CMakeFiles/chocolate-doom.dir/i_glob.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/i_glob.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_glob.c > CMakeFiles/chocolate-doom.dir/i_glob.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/i_glob.c > CMakeFiles/chocolate-doom.dir/i_glob.c.i
 
 src/CMakeFiles/chocolate-doom.dir/i_glob.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/i_glob.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_glob.c -o CMakeFiles/chocolate-doom.dir/i_glob.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/i_glob.c -o CMakeFiles/chocolate-doom.dir/i_glob.c.s
 
 src/CMakeFiles/chocolate-doom.dir/i_input.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/i_input.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/i_input.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_input.c
+src/CMakeFiles/chocolate-doom.dir/i_input.c.o: /home/loganwyatt/chocolate-doom/src/i_input.c
 src/CMakeFiles/chocolate-doom.dir/i_input.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/CMakeFiles/chocolate-doom.dir/i_input.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_input.c.o -MF CMakeFiles/chocolate-doom.dir/i_input.c.o.d -o CMakeFiles/chocolate-doom.dir/i_input.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_input.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_input.c.o -MF CMakeFiles/chocolate-doom.dir/i_input.c.o.d -o CMakeFiles/chocolate-doom.dir/i_input.c.o -c /home/loganwyatt/chocolate-doom/src/i_input.c
 
 src/CMakeFiles/chocolate-doom.dir/i_input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/i_input.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_input.c > CMakeFiles/chocolate-doom.dir/i_input.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/i_input.c > CMakeFiles/chocolate-doom.dir/i_input.c.i
 
 src/CMakeFiles/chocolate-doom.dir/i_input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/i_input.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_input.c -o CMakeFiles/chocolate-doom.dir/i_input.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/i_input.c -o CMakeFiles/chocolate-doom.dir/i_input.c.s
 
 src/CMakeFiles/chocolate-doom.dir/i_joystick.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/i_joystick.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/i_joystick.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_joystick.c
+src/CMakeFiles/chocolate-doom.dir/i_joystick.c.o: /home/loganwyatt/chocolate-doom/src/i_joystick.c
 src/CMakeFiles/chocolate-doom.dir/i_joystick.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/CMakeFiles/chocolate-doom.dir/i_joystick.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_joystick.c.o -MF CMakeFiles/chocolate-doom.dir/i_joystick.c.o.d -o CMakeFiles/chocolate-doom.dir/i_joystick.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_joystick.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_joystick.c.o -MF CMakeFiles/chocolate-doom.dir/i_joystick.c.o.d -o CMakeFiles/chocolate-doom.dir/i_joystick.c.o -c /home/loganwyatt/chocolate-doom/src/i_joystick.c
 
 src/CMakeFiles/chocolate-doom.dir/i_joystick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/i_joystick.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_joystick.c > CMakeFiles/chocolate-doom.dir/i_joystick.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/i_joystick.c > CMakeFiles/chocolate-doom.dir/i_joystick.c.i
 
 src/CMakeFiles/chocolate-doom.dir/i_joystick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/i_joystick.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_joystick.c -o CMakeFiles/chocolate-doom.dir/i_joystick.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/i_joystick.c -o CMakeFiles/chocolate-doom.dir/i_joystick.c.s
 
 src/CMakeFiles/chocolate-doom.dir/i_musicpack.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/i_musicpack.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/i_musicpack.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_musicpack.c
+src/CMakeFiles/chocolate-doom.dir/i_musicpack.c.o: /home/loganwyatt/chocolate-doom/src/i_musicpack.c
 src/CMakeFiles/chocolate-doom.dir/i_musicpack.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/CMakeFiles/chocolate-doom.dir/i_musicpack.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_musicpack.c.o -MF CMakeFiles/chocolate-doom.dir/i_musicpack.c.o.d -o CMakeFiles/chocolate-doom.dir/i_musicpack.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_musicpack.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_musicpack.c.o -MF CMakeFiles/chocolate-doom.dir/i_musicpack.c.o.d -o CMakeFiles/chocolate-doom.dir/i_musicpack.c.o -c /home/loganwyatt/chocolate-doom/src/i_musicpack.c
 
 src/CMakeFiles/chocolate-doom.dir/i_musicpack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/i_musicpack.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_musicpack.c > CMakeFiles/chocolate-doom.dir/i_musicpack.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/i_musicpack.c > CMakeFiles/chocolate-doom.dir/i_musicpack.c.i
 
 src/CMakeFiles/chocolate-doom.dir/i_musicpack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/i_musicpack.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_musicpack.c -o CMakeFiles/chocolate-doom.dir/i_musicpack.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/i_musicpack.c -o CMakeFiles/chocolate-doom.dir/i_musicpack.c.s
 
 src/CMakeFiles/chocolate-doom.dir/i_oplmusic.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/i_oplmusic.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/i_oplmusic.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_oplmusic.c
+src/CMakeFiles/chocolate-doom.dir/i_oplmusic.c.o: /home/loganwyatt/chocolate-doom/src/i_oplmusic.c
 src/CMakeFiles/chocolate-doom.dir/i_oplmusic.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/CMakeFiles/chocolate-doom.dir/i_oplmusic.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_oplmusic.c.o -MF CMakeFiles/chocolate-doom.dir/i_oplmusic.c.o.d -o CMakeFiles/chocolate-doom.dir/i_oplmusic.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_oplmusic.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_oplmusic.c.o -MF CMakeFiles/chocolate-doom.dir/i_oplmusic.c.o.d -o CMakeFiles/chocolate-doom.dir/i_oplmusic.c.o -c /home/loganwyatt/chocolate-doom/src/i_oplmusic.c
 
 src/CMakeFiles/chocolate-doom.dir/i_oplmusic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/i_oplmusic.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_oplmusic.c > CMakeFiles/chocolate-doom.dir/i_oplmusic.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/i_oplmusic.c > CMakeFiles/chocolate-doom.dir/i_oplmusic.c.i
 
 src/CMakeFiles/chocolate-doom.dir/i_oplmusic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/i_oplmusic.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_oplmusic.c -o CMakeFiles/chocolate-doom.dir/i_oplmusic.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/i_oplmusic.c -o CMakeFiles/chocolate-doom.dir/i_oplmusic.c.s
 
 src/CMakeFiles/chocolate-doom.dir/i_pcsound.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/i_pcsound.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/i_pcsound.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_pcsound.c
+src/CMakeFiles/chocolate-doom.dir/i_pcsound.c.o: /home/loganwyatt/chocolate-doom/src/i_pcsound.c
 src/CMakeFiles/chocolate-doom.dir/i_pcsound.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object src/CMakeFiles/chocolate-doom.dir/i_pcsound.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_pcsound.c.o -MF CMakeFiles/chocolate-doom.dir/i_pcsound.c.o.d -o CMakeFiles/chocolate-doom.dir/i_pcsound.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_pcsound.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_pcsound.c.o -MF CMakeFiles/chocolate-doom.dir/i_pcsound.c.o.d -o CMakeFiles/chocolate-doom.dir/i_pcsound.c.o -c /home/loganwyatt/chocolate-doom/src/i_pcsound.c
 
 src/CMakeFiles/chocolate-doom.dir/i_pcsound.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/i_pcsound.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_pcsound.c > CMakeFiles/chocolate-doom.dir/i_pcsound.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/i_pcsound.c > CMakeFiles/chocolate-doom.dir/i_pcsound.c.i
 
 src/CMakeFiles/chocolate-doom.dir/i_pcsound.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/i_pcsound.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_pcsound.c -o CMakeFiles/chocolate-doom.dir/i_pcsound.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/i_pcsound.c -o CMakeFiles/chocolate-doom.dir/i_pcsound.c.s
 
 src/CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_sdlmusic.c
+src/CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.o: /home/loganwyatt/chocolate-doom/src/i_sdlmusic.c
 src/CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object src/CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.o -MF CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.o.d -o CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_sdlmusic.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.o -MF CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.o.d -o CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.o -c /home/loganwyatt/chocolate-doom/src/i_sdlmusic.c
 
 src/CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_sdlmusic.c > CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/i_sdlmusic.c > CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.i
 
 src/CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_sdlmusic.c -o CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/i_sdlmusic.c -o CMakeFiles/chocolate-doom.dir/i_sdlmusic.c.s
 
 src/CMakeFiles/chocolate-doom.dir/i_sdlsound.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/i_sdlsound.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/i_sdlsound.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_sdlsound.c
+src/CMakeFiles/chocolate-doom.dir/i_sdlsound.c.o: /home/loganwyatt/chocolate-doom/src/i_sdlsound.c
 src/CMakeFiles/chocolate-doom.dir/i_sdlsound.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object src/CMakeFiles/chocolate-doom.dir/i_sdlsound.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_sdlsound.c.o -MF CMakeFiles/chocolate-doom.dir/i_sdlsound.c.o.d -o CMakeFiles/chocolate-doom.dir/i_sdlsound.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_sdlsound.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_sdlsound.c.o -MF CMakeFiles/chocolate-doom.dir/i_sdlsound.c.o.d -o CMakeFiles/chocolate-doom.dir/i_sdlsound.c.o -c /home/loganwyatt/chocolate-doom/src/i_sdlsound.c
 
 src/CMakeFiles/chocolate-doom.dir/i_sdlsound.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/i_sdlsound.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_sdlsound.c > CMakeFiles/chocolate-doom.dir/i_sdlsound.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/i_sdlsound.c > CMakeFiles/chocolate-doom.dir/i_sdlsound.c.i
 
 src/CMakeFiles/chocolate-doom.dir/i_sdlsound.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/i_sdlsound.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_sdlsound.c -o CMakeFiles/chocolate-doom.dir/i_sdlsound.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/i_sdlsound.c -o CMakeFiles/chocolate-doom.dir/i_sdlsound.c.s
 
 src/CMakeFiles/chocolate-doom.dir/i_sound.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/i_sound.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/i_sound.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_sound.c
+src/CMakeFiles/chocolate-doom.dir/i_sound.c.o: /home/loganwyatt/chocolate-doom/src/i_sound.c
 src/CMakeFiles/chocolate-doom.dir/i_sound.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object src/CMakeFiles/chocolate-doom.dir/i_sound.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_sound.c.o -MF CMakeFiles/chocolate-doom.dir/i_sound.c.o.d -o CMakeFiles/chocolate-doom.dir/i_sound.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_sound.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_sound.c.o -MF CMakeFiles/chocolate-doom.dir/i_sound.c.o.d -o CMakeFiles/chocolate-doom.dir/i_sound.c.o -c /home/loganwyatt/chocolate-doom/src/i_sound.c
 
 src/CMakeFiles/chocolate-doom.dir/i_sound.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/i_sound.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_sound.c > CMakeFiles/chocolate-doom.dir/i_sound.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/i_sound.c > CMakeFiles/chocolate-doom.dir/i_sound.c.i
 
 src/CMakeFiles/chocolate-doom.dir/i_sound.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/i_sound.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_sound.c -o CMakeFiles/chocolate-doom.dir/i_sound.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/i_sound.c -o CMakeFiles/chocolate-doom.dir/i_sound.c.s
 
 src/CMakeFiles/chocolate-doom.dir/i_timer.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/i_timer.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/i_timer.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_timer.c
+src/CMakeFiles/chocolate-doom.dir/i_timer.c.o: /home/loganwyatt/chocolate-doom/src/i_timer.c
 src/CMakeFiles/chocolate-doom.dir/i_timer.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object src/CMakeFiles/chocolate-doom.dir/i_timer.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_timer.c.o -MF CMakeFiles/chocolate-doom.dir/i_timer.c.o.d -o CMakeFiles/chocolate-doom.dir/i_timer.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_timer.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_timer.c.o -MF CMakeFiles/chocolate-doom.dir/i_timer.c.o.d -o CMakeFiles/chocolate-doom.dir/i_timer.c.o -c /home/loganwyatt/chocolate-doom/src/i_timer.c
 
 src/CMakeFiles/chocolate-doom.dir/i_timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/i_timer.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_timer.c > CMakeFiles/chocolate-doom.dir/i_timer.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/i_timer.c > CMakeFiles/chocolate-doom.dir/i_timer.c.i
 
 src/CMakeFiles/chocolate-doom.dir/i_timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/i_timer.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_timer.c -o CMakeFiles/chocolate-doom.dir/i_timer.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/i_timer.c -o CMakeFiles/chocolate-doom.dir/i_timer.c.s
 
 src/CMakeFiles/chocolate-doom.dir/i_video.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/i_video.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/i_video.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_video.c
+src/CMakeFiles/chocolate-doom.dir/i_video.c.o: /home/loganwyatt/chocolate-doom/src/i_video.c
 src/CMakeFiles/chocolate-doom.dir/i_video.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object src/CMakeFiles/chocolate-doom.dir/i_video.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_video.c.o -MF CMakeFiles/chocolate-doom.dir/i_video.c.o.d -o CMakeFiles/chocolate-doom.dir/i_video.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_video.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_video.c.o -MF CMakeFiles/chocolate-doom.dir/i_video.c.o.d -o CMakeFiles/chocolate-doom.dir/i_video.c.o -c /home/loganwyatt/chocolate-doom/src/i_video.c
 
 src/CMakeFiles/chocolate-doom.dir/i_video.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/i_video.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_video.c > CMakeFiles/chocolate-doom.dir/i_video.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/i_video.c > CMakeFiles/chocolate-doom.dir/i_video.c.i
 
 src/CMakeFiles/chocolate-doom.dir/i_video.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/i_video.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_video.c -o CMakeFiles/chocolate-doom.dir/i_video.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/i_video.c -o CMakeFiles/chocolate-doom.dir/i_video.c.s
 
 src/CMakeFiles/chocolate-doom.dir/i_videohr.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/i_videohr.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/i_videohr.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_videohr.c
+src/CMakeFiles/chocolate-doom.dir/i_videohr.c.o: /home/loganwyatt/chocolate-doom/src/i_videohr.c
 src/CMakeFiles/chocolate-doom.dir/i_videohr.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object src/CMakeFiles/chocolate-doom.dir/i_videohr.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_videohr.c.o -MF CMakeFiles/chocolate-doom.dir/i_videohr.c.o.d -o CMakeFiles/chocolate-doom.dir/i_videohr.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_videohr.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_videohr.c.o -MF CMakeFiles/chocolate-doom.dir/i_videohr.c.o.d -o CMakeFiles/chocolate-doom.dir/i_videohr.c.o -c /home/loganwyatt/chocolate-doom/src/i_videohr.c
 
 src/CMakeFiles/chocolate-doom.dir/i_videohr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/i_videohr.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_videohr.c > CMakeFiles/chocolate-doom.dir/i_videohr.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/i_videohr.c > CMakeFiles/chocolate-doom.dir/i_videohr.c.i
 
 src/CMakeFiles/chocolate-doom.dir/i_videohr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/i_videohr.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_videohr.c -o CMakeFiles/chocolate-doom.dir/i_videohr.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/i_videohr.c -o CMakeFiles/chocolate-doom.dir/i_videohr.c.s
 
 src/CMakeFiles/chocolate-doom.dir/i_winmusic.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/i_winmusic.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/i_winmusic.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_winmusic.c
+src/CMakeFiles/chocolate-doom.dir/i_winmusic.c.o: /home/loganwyatt/chocolate-doom/src/i_winmusic.c
 src/CMakeFiles/chocolate-doom.dir/i_winmusic.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object src/CMakeFiles/chocolate-doom.dir/i_winmusic.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_winmusic.c.o -MF CMakeFiles/chocolate-doom.dir/i_winmusic.c.o.d -o CMakeFiles/chocolate-doom.dir/i_winmusic.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_winmusic.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/i_winmusic.c.o -MF CMakeFiles/chocolate-doom.dir/i_winmusic.c.o.d -o CMakeFiles/chocolate-doom.dir/i_winmusic.c.o -c /home/loganwyatt/chocolate-doom/src/i_winmusic.c
 
 src/CMakeFiles/chocolate-doom.dir/i_winmusic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/i_winmusic.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_winmusic.c > CMakeFiles/chocolate-doom.dir/i_winmusic.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/i_winmusic.c > CMakeFiles/chocolate-doom.dir/i_winmusic.c.i
 
 src/CMakeFiles/chocolate-doom.dir/i_winmusic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/i_winmusic.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_winmusic.c -o CMakeFiles/chocolate-doom.dir/i_winmusic.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/i_winmusic.c -o CMakeFiles/chocolate-doom.dir/i_winmusic.c.s
 
 src/CMakeFiles/chocolate-doom.dir/midifallback.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/midifallback.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/midifallback.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/midifallback.c
+src/CMakeFiles/chocolate-doom.dir/midifallback.c.o: /home/loganwyatt/chocolate-doom/src/midifallback.c
 src/CMakeFiles/chocolate-doom.dir/midifallback.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object src/CMakeFiles/chocolate-doom.dir/midifallback.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/midifallback.c.o -MF CMakeFiles/chocolate-doom.dir/midifallback.c.o.d -o CMakeFiles/chocolate-doom.dir/midifallback.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/midifallback.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/midifallback.c.o -MF CMakeFiles/chocolate-doom.dir/midifallback.c.o.d -o CMakeFiles/chocolate-doom.dir/midifallback.c.o -c /home/loganwyatt/chocolate-doom/src/midifallback.c
 
 src/CMakeFiles/chocolate-doom.dir/midifallback.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/midifallback.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/midifallback.c > CMakeFiles/chocolate-doom.dir/midifallback.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/midifallback.c > CMakeFiles/chocolate-doom.dir/midifallback.c.i
 
 src/CMakeFiles/chocolate-doom.dir/midifallback.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/midifallback.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/midifallback.c -o CMakeFiles/chocolate-doom.dir/midifallback.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/midifallback.c -o CMakeFiles/chocolate-doom.dir/midifallback.c.s
 
 src/CMakeFiles/chocolate-doom.dir/midifile.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/midifile.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/midifile.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/midifile.c
+src/CMakeFiles/chocolate-doom.dir/midifile.c.o: /home/loganwyatt/chocolate-doom/src/midifile.c
 src/CMakeFiles/chocolate-doom.dir/midifile.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object src/CMakeFiles/chocolate-doom.dir/midifile.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/midifile.c.o -MF CMakeFiles/chocolate-doom.dir/midifile.c.o.d -o CMakeFiles/chocolate-doom.dir/midifile.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/midifile.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/midifile.c.o -MF CMakeFiles/chocolate-doom.dir/midifile.c.o.d -o CMakeFiles/chocolate-doom.dir/midifile.c.o -c /home/loganwyatt/chocolate-doom/src/midifile.c
 
 src/CMakeFiles/chocolate-doom.dir/midifile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/midifile.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/midifile.c > CMakeFiles/chocolate-doom.dir/midifile.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/midifile.c > CMakeFiles/chocolate-doom.dir/midifile.c.i
 
 src/CMakeFiles/chocolate-doom.dir/midifile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/midifile.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/midifile.c -o CMakeFiles/chocolate-doom.dir/midifile.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/midifile.c -o CMakeFiles/chocolate-doom.dir/midifile.c.s
 
 src/CMakeFiles/chocolate-doom.dir/mus2mid.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/mus2mid.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/mus2mid.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/mus2mid.c
+src/CMakeFiles/chocolate-doom.dir/mus2mid.c.o: /home/loganwyatt/chocolate-doom/src/mus2mid.c
 src/CMakeFiles/chocolate-doom.dir/mus2mid.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object src/CMakeFiles/chocolate-doom.dir/mus2mid.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/mus2mid.c.o -MF CMakeFiles/chocolate-doom.dir/mus2mid.c.o.d -o CMakeFiles/chocolate-doom.dir/mus2mid.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/mus2mid.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/mus2mid.c.o -MF CMakeFiles/chocolate-doom.dir/mus2mid.c.o.d -o CMakeFiles/chocolate-doom.dir/mus2mid.c.o -c /home/loganwyatt/chocolate-doom/src/mus2mid.c
 
 src/CMakeFiles/chocolate-doom.dir/mus2mid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/mus2mid.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/mus2mid.c > CMakeFiles/chocolate-doom.dir/mus2mid.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/mus2mid.c > CMakeFiles/chocolate-doom.dir/mus2mid.c.i
 
 src/CMakeFiles/chocolate-doom.dir/mus2mid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/mus2mid.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/mus2mid.c -o CMakeFiles/chocolate-doom.dir/mus2mid.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/mus2mid.c -o CMakeFiles/chocolate-doom.dir/mus2mid.c.s
 
 src/CMakeFiles/chocolate-doom.dir/m_bbox.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/m_bbox.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/m_bbox.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_bbox.c
+src/CMakeFiles/chocolate-doom.dir/m_bbox.c.o: /home/loganwyatt/chocolate-doom/src/m_bbox.c
 src/CMakeFiles/chocolate-doom.dir/m_bbox.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object src/CMakeFiles/chocolate-doom.dir/m_bbox.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/m_bbox.c.o -MF CMakeFiles/chocolate-doom.dir/m_bbox.c.o.d -o CMakeFiles/chocolate-doom.dir/m_bbox.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_bbox.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/m_bbox.c.o -MF CMakeFiles/chocolate-doom.dir/m_bbox.c.o.d -o CMakeFiles/chocolate-doom.dir/m_bbox.c.o -c /home/loganwyatt/chocolate-doom/src/m_bbox.c
 
 src/CMakeFiles/chocolate-doom.dir/m_bbox.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/m_bbox.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_bbox.c > CMakeFiles/chocolate-doom.dir/m_bbox.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/m_bbox.c > CMakeFiles/chocolate-doom.dir/m_bbox.c.i
 
 src/CMakeFiles/chocolate-doom.dir/m_bbox.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/m_bbox.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_bbox.c -o CMakeFiles/chocolate-doom.dir/m_bbox.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/m_bbox.c -o CMakeFiles/chocolate-doom.dir/m_bbox.c.s
 
 src/CMakeFiles/chocolate-doom.dir/m_cheat.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/m_cheat.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/m_cheat.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_cheat.c
+src/CMakeFiles/chocolate-doom.dir/m_cheat.c.o: /home/loganwyatt/chocolate-doom/src/m_cheat.c
 src/CMakeFiles/chocolate-doom.dir/m_cheat.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object src/CMakeFiles/chocolate-doom.dir/m_cheat.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/m_cheat.c.o -MF CMakeFiles/chocolate-doom.dir/m_cheat.c.o.d -o CMakeFiles/chocolate-doom.dir/m_cheat.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_cheat.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/m_cheat.c.o -MF CMakeFiles/chocolate-doom.dir/m_cheat.c.o.d -o CMakeFiles/chocolate-doom.dir/m_cheat.c.o -c /home/loganwyatt/chocolate-doom/src/m_cheat.c
 
 src/CMakeFiles/chocolate-doom.dir/m_cheat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/m_cheat.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_cheat.c > CMakeFiles/chocolate-doom.dir/m_cheat.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/m_cheat.c > CMakeFiles/chocolate-doom.dir/m_cheat.c.i
 
 src/CMakeFiles/chocolate-doom.dir/m_cheat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/m_cheat.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_cheat.c -o CMakeFiles/chocolate-doom.dir/m_cheat.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/m_cheat.c -o CMakeFiles/chocolate-doom.dir/m_cheat.c.s
 
 src/CMakeFiles/chocolate-doom.dir/m_config.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/m_config.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/m_config.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_config.c
+src/CMakeFiles/chocolate-doom.dir/m_config.c.o: /home/loganwyatt/chocolate-doom/src/m_config.c
 src/CMakeFiles/chocolate-doom.dir/m_config.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object src/CMakeFiles/chocolate-doom.dir/m_config.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/m_config.c.o -MF CMakeFiles/chocolate-doom.dir/m_config.c.o.d -o CMakeFiles/chocolate-doom.dir/m_config.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_config.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/m_config.c.o -MF CMakeFiles/chocolate-doom.dir/m_config.c.o.d -o CMakeFiles/chocolate-doom.dir/m_config.c.o -c /home/loganwyatt/chocolate-doom/src/m_config.c
 
 src/CMakeFiles/chocolate-doom.dir/m_config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/m_config.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_config.c > CMakeFiles/chocolate-doom.dir/m_config.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/m_config.c > CMakeFiles/chocolate-doom.dir/m_config.c.i
 
 src/CMakeFiles/chocolate-doom.dir/m_config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/m_config.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_config.c -o CMakeFiles/chocolate-doom.dir/m_config.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/m_config.c -o CMakeFiles/chocolate-doom.dir/m_config.c.s
 
 src/CMakeFiles/chocolate-doom.dir/m_controls.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/m_controls.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/m_controls.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_controls.c
+src/CMakeFiles/chocolate-doom.dir/m_controls.c.o: /home/loganwyatt/chocolate-doom/src/m_controls.c
 src/CMakeFiles/chocolate-doom.dir/m_controls.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object src/CMakeFiles/chocolate-doom.dir/m_controls.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/m_controls.c.o -MF CMakeFiles/chocolate-doom.dir/m_controls.c.o.d -o CMakeFiles/chocolate-doom.dir/m_controls.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_controls.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/m_controls.c.o -MF CMakeFiles/chocolate-doom.dir/m_controls.c.o.d -o CMakeFiles/chocolate-doom.dir/m_controls.c.o -c /home/loganwyatt/chocolate-doom/src/m_controls.c
 
 src/CMakeFiles/chocolate-doom.dir/m_controls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/m_controls.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_controls.c > CMakeFiles/chocolate-doom.dir/m_controls.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/m_controls.c > CMakeFiles/chocolate-doom.dir/m_controls.c.i
 
 src/CMakeFiles/chocolate-doom.dir/m_controls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/m_controls.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_controls.c -o CMakeFiles/chocolate-doom.dir/m_controls.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/m_controls.c -o CMakeFiles/chocolate-doom.dir/m_controls.c.s
 
 src/CMakeFiles/chocolate-doom.dir/m_fixed.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/m_fixed.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/m_fixed.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_fixed.c
+src/CMakeFiles/chocolate-doom.dir/m_fixed.c.o: /home/loganwyatt/chocolate-doom/src/m_fixed.c
 src/CMakeFiles/chocolate-doom.dir/m_fixed.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object src/CMakeFiles/chocolate-doom.dir/m_fixed.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/m_fixed.c.o -MF CMakeFiles/chocolate-doom.dir/m_fixed.c.o.d -o CMakeFiles/chocolate-doom.dir/m_fixed.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_fixed.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/m_fixed.c.o -MF CMakeFiles/chocolate-doom.dir/m_fixed.c.o.d -o CMakeFiles/chocolate-doom.dir/m_fixed.c.o -c /home/loganwyatt/chocolate-doom/src/m_fixed.c
 
 src/CMakeFiles/chocolate-doom.dir/m_fixed.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/m_fixed.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_fixed.c > CMakeFiles/chocolate-doom.dir/m_fixed.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/m_fixed.c > CMakeFiles/chocolate-doom.dir/m_fixed.c.i
 
 src/CMakeFiles/chocolate-doom.dir/m_fixed.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/m_fixed.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_fixed.c -o CMakeFiles/chocolate-doom.dir/m_fixed.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/m_fixed.c -o CMakeFiles/chocolate-doom.dir/m_fixed.c.s
 
 src/CMakeFiles/chocolate-doom.dir/net_client.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/net_client.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/net_client.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_client.c
+src/CMakeFiles/chocolate-doom.dir/net_client.c.o: /home/loganwyatt/chocolate-doom/src/net_client.c
 src/CMakeFiles/chocolate-doom.dir/net_client.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object src/CMakeFiles/chocolate-doom.dir/net_client.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_client.c.o -MF CMakeFiles/chocolate-doom.dir/net_client.c.o.d -o CMakeFiles/chocolate-doom.dir/net_client.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_client.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_client.c.o -MF CMakeFiles/chocolate-doom.dir/net_client.c.o.d -o CMakeFiles/chocolate-doom.dir/net_client.c.o -c /home/loganwyatt/chocolate-doom/src/net_client.c
 
 src/CMakeFiles/chocolate-doom.dir/net_client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/net_client.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_client.c > CMakeFiles/chocolate-doom.dir/net_client.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/net_client.c > CMakeFiles/chocolate-doom.dir/net_client.c.i
 
 src/CMakeFiles/chocolate-doom.dir/net_client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/net_client.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_client.c -o CMakeFiles/chocolate-doom.dir/net_client.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/net_client.c -o CMakeFiles/chocolate-doom.dir/net_client.c.s
 
 src/CMakeFiles/chocolate-doom.dir/net_common.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/net_common.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/net_common.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_common.c
+src/CMakeFiles/chocolate-doom.dir/net_common.c.o: /home/loganwyatt/chocolate-doom/src/net_common.c
 src/CMakeFiles/chocolate-doom.dir/net_common.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object src/CMakeFiles/chocolate-doom.dir/net_common.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_common.c.o -MF CMakeFiles/chocolate-doom.dir/net_common.c.o.d -o CMakeFiles/chocolate-doom.dir/net_common.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_common.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_common.c.o -MF CMakeFiles/chocolate-doom.dir/net_common.c.o.d -o CMakeFiles/chocolate-doom.dir/net_common.c.o -c /home/loganwyatt/chocolate-doom/src/net_common.c
 
 src/CMakeFiles/chocolate-doom.dir/net_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/net_common.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_common.c > CMakeFiles/chocolate-doom.dir/net_common.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/net_common.c > CMakeFiles/chocolate-doom.dir/net_common.c.i
 
 src/CMakeFiles/chocolate-doom.dir/net_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/net_common.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_common.c -o CMakeFiles/chocolate-doom.dir/net_common.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/net_common.c -o CMakeFiles/chocolate-doom.dir/net_common.c.s
 
 src/CMakeFiles/chocolate-doom.dir/net_dedicated.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/net_dedicated.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/net_dedicated.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_dedicated.c
+src/CMakeFiles/chocolate-doom.dir/net_dedicated.c.o: /home/loganwyatt/chocolate-doom/src/net_dedicated.c
 src/CMakeFiles/chocolate-doom.dir/net_dedicated.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object src/CMakeFiles/chocolate-doom.dir/net_dedicated.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_dedicated.c.o -MF CMakeFiles/chocolate-doom.dir/net_dedicated.c.o.d -o CMakeFiles/chocolate-doom.dir/net_dedicated.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_dedicated.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_dedicated.c.o -MF CMakeFiles/chocolate-doom.dir/net_dedicated.c.o.d -o CMakeFiles/chocolate-doom.dir/net_dedicated.c.o -c /home/loganwyatt/chocolate-doom/src/net_dedicated.c
 
 src/CMakeFiles/chocolate-doom.dir/net_dedicated.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/net_dedicated.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_dedicated.c > CMakeFiles/chocolate-doom.dir/net_dedicated.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/net_dedicated.c > CMakeFiles/chocolate-doom.dir/net_dedicated.c.i
 
 src/CMakeFiles/chocolate-doom.dir/net_dedicated.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/net_dedicated.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_dedicated.c -o CMakeFiles/chocolate-doom.dir/net_dedicated.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/net_dedicated.c -o CMakeFiles/chocolate-doom.dir/net_dedicated.c.s
 
 src/CMakeFiles/chocolate-doom.dir/net_gui.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/net_gui.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/net_gui.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_gui.c
+src/CMakeFiles/chocolate-doom.dir/net_gui.c.o: /home/loganwyatt/chocolate-doom/src/net_gui.c
 src/CMakeFiles/chocolate-doom.dir/net_gui.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object src/CMakeFiles/chocolate-doom.dir/net_gui.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_gui.c.o -MF CMakeFiles/chocolate-doom.dir/net_gui.c.o.d -o CMakeFiles/chocolate-doom.dir/net_gui.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_gui.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_gui.c.o -MF CMakeFiles/chocolate-doom.dir/net_gui.c.o.d -o CMakeFiles/chocolate-doom.dir/net_gui.c.o -c /home/loganwyatt/chocolate-doom/src/net_gui.c
 
 src/CMakeFiles/chocolate-doom.dir/net_gui.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/net_gui.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_gui.c > CMakeFiles/chocolate-doom.dir/net_gui.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/net_gui.c > CMakeFiles/chocolate-doom.dir/net_gui.c.i
 
 src/CMakeFiles/chocolate-doom.dir/net_gui.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/net_gui.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_gui.c -o CMakeFiles/chocolate-doom.dir/net_gui.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/net_gui.c -o CMakeFiles/chocolate-doom.dir/net_gui.c.s
 
 src/CMakeFiles/chocolate-doom.dir/net_io.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/net_io.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/net_io.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_io.c
+src/CMakeFiles/chocolate-doom.dir/net_io.c.o: /home/loganwyatt/chocolate-doom/src/net_io.c
 src/CMakeFiles/chocolate-doom.dir/net_io.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object src/CMakeFiles/chocolate-doom.dir/net_io.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_io.c.o -MF CMakeFiles/chocolate-doom.dir/net_io.c.o.d -o CMakeFiles/chocolate-doom.dir/net_io.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_io.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_io.c.o -MF CMakeFiles/chocolate-doom.dir/net_io.c.o.d -o CMakeFiles/chocolate-doom.dir/net_io.c.o -c /home/loganwyatt/chocolate-doom/src/net_io.c
 
 src/CMakeFiles/chocolate-doom.dir/net_io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/net_io.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_io.c > CMakeFiles/chocolate-doom.dir/net_io.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/net_io.c > CMakeFiles/chocolate-doom.dir/net_io.c.i
 
 src/CMakeFiles/chocolate-doom.dir/net_io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/net_io.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_io.c -o CMakeFiles/chocolate-doom.dir/net_io.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/net_io.c -o CMakeFiles/chocolate-doom.dir/net_io.c.s
 
 src/CMakeFiles/chocolate-doom.dir/net_loop.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/net_loop.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/net_loop.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_loop.c
+src/CMakeFiles/chocolate-doom.dir/net_loop.c.o: /home/loganwyatt/chocolate-doom/src/net_loop.c
 src/CMakeFiles/chocolate-doom.dir/net_loop.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object src/CMakeFiles/chocolate-doom.dir/net_loop.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_loop.c.o -MF CMakeFiles/chocolate-doom.dir/net_loop.c.o.d -o CMakeFiles/chocolate-doom.dir/net_loop.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_loop.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_loop.c.o -MF CMakeFiles/chocolate-doom.dir/net_loop.c.o.d -o CMakeFiles/chocolate-doom.dir/net_loop.c.o -c /home/loganwyatt/chocolate-doom/src/net_loop.c
 
 src/CMakeFiles/chocolate-doom.dir/net_loop.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/net_loop.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_loop.c > CMakeFiles/chocolate-doom.dir/net_loop.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/net_loop.c > CMakeFiles/chocolate-doom.dir/net_loop.c.i
 
 src/CMakeFiles/chocolate-doom.dir/net_loop.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/net_loop.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_loop.c -o CMakeFiles/chocolate-doom.dir/net_loop.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/net_loop.c -o CMakeFiles/chocolate-doom.dir/net_loop.c.s
 
 src/CMakeFiles/chocolate-doom.dir/net_packet.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/net_packet.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/net_packet.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_packet.c
+src/CMakeFiles/chocolate-doom.dir/net_packet.c.o: /home/loganwyatt/chocolate-doom/src/net_packet.c
 src/CMakeFiles/chocolate-doom.dir/net_packet.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object src/CMakeFiles/chocolate-doom.dir/net_packet.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_packet.c.o -MF CMakeFiles/chocolate-doom.dir/net_packet.c.o.d -o CMakeFiles/chocolate-doom.dir/net_packet.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_packet.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_packet.c.o -MF CMakeFiles/chocolate-doom.dir/net_packet.c.o.d -o CMakeFiles/chocolate-doom.dir/net_packet.c.o -c /home/loganwyatt/chocolate-doom/src/net_packet.c
 
 src/CMakeFiles/chocolate-doom.dir/net_packet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/net_packet.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_packet.c > CMakeFiles/chocolate-doom.dir/net_packet.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/net_packet.c > CMakeFiles/chocolate-doom.dir/net_packet.c.i
 
 src/CMakeFiles/chocolate-doom.dir/net_packet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/net_packet.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_packet.c -o CMakeFiles/chocolate-doom.dir/net_packet.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/net_packet.c -o CMakeFiles/chocolate-doom.dir/net_packet.c.s
 
 src/CMakeFiles/chocolate-doom.dir/net_petname.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/net_petname.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/net_petname.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_petname.c
+src/CMakeFiles/chocolate-doom.dir/net_petname.c.o: /home/loganwyatt/chocolate-doom/src/net_petname.c
 src/CMakeFiles/chocolate-doom.dir/net_petname.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object src/CMakeFiles/chocolate-doom.dir/net_petname.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_petname.c.o -MF CMakeFiles/chocolate-doom.dir/net_petname.c.o.d -o CMakeFiles/chocolate-doom.dir/net_petname.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_petname.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_petname.c.o -MF CMakeFiles/chocolate-doom.dir/net_petname.c.o.d -o CMakeFiles/chocolate-doom.dir/net_petname.c.o -c /home/loganwyatt/chocolate-doom/src/net_petname.c
 
 src/CMakeFiles/chocolate-doom.dir/net_petname.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/net_petname.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_petname.c > CMakeFiles/chocolate-doom.dir/net_petname.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/net_petname.c > CMakeFiles/chocolate-doom.dir/net_petname.c.i
 
 src/CMakeFiles/chocolate-doom.dir/net_petname.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/net_petname.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_petname.c -o CMakeFiles/chocolate-doom.dir/net_petname.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/net_petname.c -o CMakeFiles/chocolate-doom.dir/net_petname.c.s
 
 src/CMakeFiles/chocolate-doom.dir/net_query.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/net_query.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/net_query.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_query.c
+src/CMakeFiles/chocolate-doom.dir/net_query.c.o: /home/loganwyatt/chocolate-doom/src/net_query.c
 src/CMakeFiles/chocolate-doom.dir/net_query.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object src/CMakeFiles/chocolate-doom.dir/net_query.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_query.c.o -MF CMakeFiles/chocolate-doom.dir/net_query.c.o.d -o CMakeFiles/chocolate-doom.dir/net_query.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_query.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_query.c.o -MF CMakeFiles/chocolate-doom.dir/net_query.c.o.d -o CMakeFiles/chocolate-doom.dir/net_query.c.o -c /home/loganwyatt/chocolate-doom/src/net_query.c
 
 src/CMakeFiles/chocolate-doom.dir/net_query.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/net_query.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_query.c > CMakeFiles/chocolate-doom.dir/net_query.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/net_query.c > CMakeFiles/chocolate-doom.dir/net_query.c.i
 
 src/CMakeFiles/chocolate-doom.dir/net_query.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/net_query.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_query.c -o CMakeFiles/chocolate-doom.dir/net_query.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/net_query.c -o CMakeFiles/chocolate-doom.dir/net_query.c.s
 
 src/CMakeFiles/chocolate-doom.dir/net_sdl.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/net_sdl.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/net_sdl.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_sdl.c
+src/CMakeFiles/chocolate-doom.dir/net_sdl.c.o: /home/loganwyatt/chocolate-doom/src/net_sdl.c
 src/CMakeFiles/chocolate-doom.dir/net_sdl.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object src/CMakeFiles/chocolate-doom.dir/net_sdl.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_sdl.c.o -MF CMakeFiles/chocolate-doom.dir/net_sdl.c.o.d -o CMakeFiles/chocolate-doom.dir/net_sdl.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_sdl.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_sdl.c.o -MF CMakeFiles/chocolate-doom.dir/net_sdl.c.o.d -o CMakeFiles/chocolate-doom.dir/net_sdl.c.o -c /home/loganwyatt/chocolate-doom/src/net_sdl.c
 
 src/CMakeFiles/chocolate-doom.dir/net_sdl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/net_sdl.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_sdl.c > CMakeFiles/chocolate-doom.dir/net_sdl.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/net_sdl.c > CMakeFiles/chocolate-doom.dir/net_sdl.c.i
 
 src/CMakeFiles/chocolate-doom.dir/net_sdl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/net_sdl.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_sdl.c -o CMakeFiles/chocolate-doom.dir/net_sdl.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/net_sdl.c -o CMakeFiles/chocolate-doom.dir/net_sdl.c.s
 
 src/CMakeFiles/chocolate-doom.dir/net_server.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/net_server.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/net_server.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_server.c
+src/CMakeFiles/chocolate-doom.dir/net_server.c.o: /home/loganwyatt/chocolate-doom/src/net_server.c
 src/CMakeFiles/chocolate-doom.dir/net_server.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object src/CMakeFiles/chocolate-doom.dir/net_server.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_server.c.o -MF CMakeFiles/chocolate-doom.dir/net_server.c.o.d -o CMakeFiles/chocolate-doom.dir/net_server.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_server.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_server.c.o -MF CMakeFiles/chocolate-doom.dir/net_server.c.o.d -o CMakeFiles/chocolate-doom.dir/net_server.c.o -c /home/loganwyatt/chocolate-doom/src/net_server.c
 
 src/CMakeFiles/chocolate-doom.dir/net_server.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/net_server.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_server.c > CMakeFiles/chocolate-doom.dir/net_server.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/net_server.c > CMakeFiles/chocolate-doom.dir/net_server.c.i
 
 src/CMakeFiles/chocolate-doom.dir/net_server.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/net_server.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_server.c -o CMakeFiles/chocolate-doom.dir/net_server.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/net_server.c -o CMakeFiles/chocolate-doom.dir/net_server.c.s
 
 src/CMakeFiles/chocolate-doom.dir/net_structrw.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/net_structrw.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/net_structrw.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_structrw.c
+src/CMakeFiles/chocolate-doom.dir/net_structrw.c.o: /home/loganwyatt/chocolate-doom/src/net_structrw.c
 src/CMakeFiles/chocolate-doom.dir/net_structrw.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object src/CMakeFiles/chocolate-doom.dir/net_structrw.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_structrw.c.o -MF CMakeFiles/chocolate-doom.dir/net_structrw.c.o.d -o CMakeFiles/chocolate-doom.dir/net_structrw.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_structrw.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/net_structrw.c.o -MF CMakeFiles/chocolate-doom.dir/net_structrw.c.o.d -o CMakeFiles/chocolate-doom.dir/net_structrw.c.o -c /home/loganwyatt/chocolate-doom/src/net_structrw.c
 
 src/CMakeFiles/chocolate-doom.dir/net_structrw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/net_structrw.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_structrw.c > CMakeFiles/chocolate-doom.dir/net_structrw.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/net_structrw.c > CMakeFiles/chocolate-doom.dir/net_structrw.c.i
 
 src/CMakeFiles/chocolate-doom.dir/net_structrw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/net_structrw.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_structrw.c -o CMakeFiles/chocolate-doom.dir/net_structrw.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/net_structrw.c -o CMakeFiles/chocolate-doom.dir/net_structrw.c.s
 
 src/CMakeFiles/chocolate-doom.dir/sha1.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/sha1.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/sha1.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/sha1.c
+src/CMakeFiles/chocolate-doom.dir/sha1.c.o: /home/loganwyatt/chocolate-doom/src/sha1.c
 src/CMakeFiles/chocolate-doom.dir/sha1.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object src/CMakeFiles/chocolate-doom.dir/sha1.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/sha1.c.o -MF CMakeFiles/chocolate-doom.dir/sha1.c.o.d -o CMakeFiles/chocolate-doom.dir/sha1.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/sha1.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/sha1.c.o -MF CMakeFiles/chocolate-doom.dir/sha1.c.o.d -o CMakeFiles/chocolate-doom.dir/sha1.c.o -c /home/loganwyatt/chocolate-doom/src/sha1.c
 
 src/CMakeFiles/chocolate-doom.dir/sha1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/sha1.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/sha1.c > CMakeFiles/chocolate-doom.dir/sha1.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/sha1.c > CMakeFiles/chocolate-doom.dir/sha1.c.i
 
 src/CMakeFiles/chocolate-doom.dir/sha1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/sha1.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/sha1.c -o CMakeFiles/chocolate-doom.dir/sha1.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/sha1.c -o CMakeFiles/chocolate-doom.dir/sha1.c.s
 
 src/CMakeFiles/chocolate-doom.dir/memio.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/memio.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/memio.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/memio.c
+src/CMakeFiles/chocolate-doom.dir/memio.c.o: /home/loganwyatt/chocolate-doom/src/memio.c
 src/CMakeFiles/chocolate-doom.dir/memio.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object src/CMakeFiles/chocolate-doom.dir/memio.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/memio.c.o -MF CMakeFiles/chocolate-doom.dir/memio.c.o.d -o CMakeFiles/chocolate-doom.dir/memio.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/memio.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/memio.c.o -MF CMakeFiles/chocolate-doom.dir/memio.c.o.d -o CMakeFiles/chocolate-doom.dir/memio.c.o -c /home/loganwyatt/chocolate-doom/src/memio.c
 
 src/CMakeFiles/chocolate-doom.dir/memio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/memio.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/memio.c > CMakeFiles/chocolate-doom.dir/memio.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/memio.c > CMakeFiles/chocolate-doom.dir/memio.c.i
 
 src/CMakeFiles/chocolate-doom.dir/memio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/memio.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/memio.c -o CMakeFiles/chocolate-doom.dir/memio.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/memio.c -o CMakeFiles/chocolate-doom.dir/memio.c.s
 
 src/CMakeFiles/chocolate-doom.dir/tables.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/tables.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/tables.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/tables.c
+src/CMakeFiles/chocolate-doom.dir/tables.c.o: /home/loganwyatt/chocolate-doom/src/tables.c
 src/CMakeFiles/chocolate-doom.dir/tables.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object src/CMakeFiles/chocolate-doom.dir/tables.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/tables.c.o -MF CMakeFiles/chocolate-doom.dir/tables.c.o.d -o CMakeFiles/chocolate-doom.dir/tables.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/tables.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/tables.c.o -MF CMakeFiles/chocolate-doom.dir/tables.c.o.d -o CMakeFiles/chocolate-doom.dir/tables.c.o -c /home/loganwyatt/chocolate-doom/src/tables.c
 
 src/CMakeFiles/chocolate-doom.dir/tables.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/tables.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/tables.c > CMakeFiles/chocolate-doom.dir/tables.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/tables.c > CMakeFiles/chocolate-doom.dir/tables.c.i
 
 src/CMakeFiles/chocolate-doom.dir/tables.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/tables.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/tables.c -o CMakeFiles/chocolate-doom.dir/tables.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/tables.c -o CMakeFiles/chocolate-doom.dir/tables.c.s
 
 src/CMakeFiles/chocolate-doom.dir/v_diskicon.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/v_diskicon.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/v_diskicon.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/v_diskicon.c
+src/CMakeFiles/chocolate-doom.dir/v_diskicon.c.o: /home/loganwyatt/chocolate-doom/src/v_diskicon.c
 src/CMakeFiles/chocolate-doom.dir/v_diskicon.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object src/CMakeFiles/chocolate-doom.dir/v_diskicon.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/v_diskicon.c.o -MF CMakeFiles/chocolate-doom.dir/v_diskicon.c.o.d -o CMakeFiles/chocolate-doom.dir/v_diskicon.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/v_diskicon.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/v_diskicon.c.o -MF CMakeFiles/chocolate-doom.dir/v_diskicon.c.o.d -o CMakeFiles/chocolate-doom.dir/v_diskicon.c.o -c /home/loganwyatt/chocolate-doom/src/v_diskicon.c
 
 src/CMakeFiles/chocolate-doom.dir/v_diskicon.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/v_diskicon.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/v_diskicon.c > CMakeFiles/chocolate-doom.dir/v_diskicon.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/v_diskicon.c > CMakeFiles/chocolate-doom.dir/v_diskicon.c.i
 
 src/CMakeFiles/chocolate-doom.dir/v_diskicon.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/v_diskicon.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/v_diskicon.c -o CMakeFiles/chocolate-doom.dir/v_diskicon.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/v_diskicon.c -o CMakeFiles/chocolate-doom.dir/v_diskicon.c.s
 
 src/CMakeFiles/chocolate-doom.dir/v_video.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/v_video.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/v_video.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/v_video.c
+src/CMakeFiles/chocolate-doom.dir/v_video.c.o: /home/loganwyatt/chocolate-doom/src/v_video.c
 src/CMakeFiles/chocolate-doom.dir/v_video.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object src/CMakeFiles/chocolate-doom.dir/v_video.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/v_video.c.o -MF CMakeFiles/chocolate-doom.dir/v_video.c.o.d -o CMakeFiles/chocolate-doom.dir/v_video.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/v_video.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/v_video.c.o -MF CMakeFiles/chocolate-doom.dir/v_video.c.o.d -o CMakeFiles/chocolate-doom.dir/v_video.c.o -c /home/loganwyatt/chocolate-doom/src/v_video.c
 
 src/CMakeFiles/chocolate-doom.dir/v_video.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/v_video.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/v_video.c > CMakeFiles/chocolate-doom.dir/v_video.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/v_video.c > CMakeFiles/chocolate-doom.dir/v_video.c.i
 
 src/CMakeFiles/chocolate-doom.dir/v_video.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/v_video.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/v_video.c -o CMakeFiles/chocolate-doom.dir/v_video.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/v_video.c -o CMakeFiles/chocolate-doom.dir/v_video.c.s
 
 src/CMakeFiles/chocolate-doom.dir/w_checksum.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/w_checksum.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/w_checksum.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_checksum.c
+src/CMakeFiles/chocolate-doom.dir/w_checksum.c.o: /home/loganwyatt/chocolate-doom/src/w_checksum.c
 src/CMakeFiles/chocolate-doom.dir/w_checksum.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object src/CMakeFiles/chocolate-doom.dir/w_checksum.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/w_checksum.c.o -MF CMakeFiles/chocolate-doom.dir/w_checksum.c.o.d -o CMakeFiles/chocolate-doom.dir/w_checksum.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_checksum.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/w_checksum.c.o -MF CMakeFiles/chocolate-doom.dir/w_checksum.c.o.d -o CMakeFiles/chocolate-doom.dir/w_checksum.c.o -c /home/loganwyatt/chocolate-doom/src/w_checksum.c
 
 src/CMakeFiles/chocolate-doom.dir/w_checksum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/w_checksum.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_checksum.c > CMakeFiles/chocolate-doom.dir/w_checksum.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/w_checksum.c > CMakeFiles/chocolate-doom.dir/w_checksum.c.i
 
 src/CMakeFiles/chocolate-doom.dir/w_checksum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/w_checksum.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_checksum.c -o CMakeFiles/chocolate-doom.dir/w_checksum.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/w_checksum.c -o CMakeFiles/chocolate-doom.dir/w_checksum.c.s
 
 src/CMakeFiles/chocolate-doom.dir/w_main.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/w_main.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/w_main.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_main.c
+src/CMakeFiles/chocolate-doom.dir/w_main.c.o: /home/loganwyatt/chocolate-doom/src/w_main.c
 src/CMakeFiles/chocolate-doom.dir/w_main.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object src/CMakeFiles/chocolate-doom.dir/w_main.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/w_main.c.o -MF CMakeFiles/chocolate-doom.dir/w_main.c.o.d -o CMakeFiles/chocolate-doom.dir/w_main.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_main.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/w_main.c.o -MF CMakeFiles/chocolate-doom.dir/w_main.c.o.d -o CMakeFiles/chocolate-doom.dir/w_main.c.o -c /home/loganwyatt/chocolate-doom/src/w_main.c
 
 src/CMakeFiles/chocolate-doom.dir/w_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/w_main.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_main.c > CMakeFiles/chocolate-doom.dir/w_main.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/w_main.c > CMakeFiles/chocolate-doom.dir/w_main.c.i
 
 src/CMakeFiles/chocolate-doom.dir/w_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/w_main.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_main.c -o CMakeFiles/chocolate-doom.dir/w_main.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/w_main.c -o CMakeFiles/chocolate-doom.dir/w_main.c.s
 
 src/CMakeFiles/chocolate-doom.dir/w_wad.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/w_wad.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/w_wad.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_wad.c
+src/CMakeFiles/chocolate-doom.dir/w_wad.c.o: /home/loganwyatt/chocolate-doom/src/w_wad.c
 src/CMakeFiles/chocolate-doom.dir/w_wad.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object src/CMakeFiles/chocolate-doom.dir/w_wad.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/w_wad.c.o -MF CMakeFiles/chocolate-doom.dir/w_wad.c.o.d -o CMakeFiles/chocolate-doom.dir/w_wad.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_wad.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/w_wad.c.o -MF CMakeFiles/chocolate-doom.dir/w_wad.c.o.d -o CMakeFiles/chocolate-doom.dir/w_wad.c.o -c /home/loganwyatt/chocolate-doom/src/w_wad.c
 
 src/CMakeFiles/chocolate-doom.dir/w_wad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/w_wad.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_wad.c > CMakeFiles/chocolate-doom.dir/w_wad.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/w_wad.c > CMakeFiles/chocolate-doom.dir/w_wad.c.i
 
 src/CMakeFiles/chocolate-doom.dir/w_wad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/w_wad.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_wad.c -o CMakeFiles/chocolate-doom.dir/w_wad.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/w_wad.c -o CMakeFiles/chocolate-doom.dir/w_wad.c.s
 
 src/CMakeFiles/chocolate-doom.dir/w_file.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/w_file.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/w_file.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file.c
+src/CMakeFiles/chocolate-doom.dir/w_file.c.o: /home/loganwyatt/chocolate-doom/src/w_file.c
 src/CMakeFiles/chocolate-doom.dir/w_file.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object src/CMakeFiles/chocolate-doom.dir/w_file.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/w_file.c.o -MF CMakeFiles/chocolate-doom.dir/w_file.c.o.d -o CMakeFiles/chocolate-doom.dir/w_file.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/w_file.c.o -MF CMakeFiles/chocolate-doom.dir/w_file.c.o.d -o CMakeFiles/chocolate-doom.dir/w_file.c.o -c /home/loganwyatt/chocolate-doom/src/w_file.c
 
 src/CMakeFiles/chocolate-doom.dir/w_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/w_file.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file.c > CMakeFiles/chocolate-doom.dir/w_file.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/w_file.c > CMakeFiles/chocolate-doom.dir/w_file.c.i
 
 src/CMakeFiles/chocolate-doom.dir/w_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/w_file.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file.c -o CMakeFiles/chocolate-doom.dir/w_file.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/w_file.c -o CMakeFiles/chocolate-doom.dir/w_file.c.s
 
 src/CMakeFiles/chocolate-doom.dir/w_file_stdc.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/w_file_stdc.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/w_file_stdc.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file_stdc.c
+src/CMakeFiles/chocolate-doom.dir/w_file_stdc.c.o: /home/loganwyatt/chocolate-doom/src/w_file_stdc.c
 src/CMakeFiles/chocolate-doom.dir/w_file_stdc.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object src/CMakeFiles/chocolate-doom.dir/w_file_stdc.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/w_file_stdc.c.o -MF CMakeFiles/chocolate-doom.dir/w_file_stdc.c.o.d -o CMakeFiles/chocolate-doom.dir/w_file_stdc.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file_stdc.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/w_file_stdc.c.o -MF CMakeFiles/chocolate-doom.dir/w_file_stdc.c.o.d -o CMakeFiles/chocolate-doom.dir/w_file_stdc.c.o -c /home/loganwyatt/chocolate-doom/src/w_file_stdc.c
 
 src/CMakeFiles/chocolate-doom.dir/w_file_stdc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/w_file_stdc.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file_stdc.c > CMakeFiles/chocolate-doom.dir/w_file_stdc.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/w_file_stdc.c > CMakeFiles/chocolate-doom.dir/w_file_stdc.c.i
 
 src/CMakeFiles/chocolate-doom.dir/w_file_stdc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/w_file_stdc.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file_stdc.c -o CMakeFiles/chocolate-doom.dir/w_file_stdc.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/w_file_stdc.c -o CMakeFiles/chocolate-doom.dir/w_file_stdc.c.s
 
 src/CMakeFiles/chocolate-doom.dir/w_file_posix.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/w_file_posix.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/w_file_posix.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file_posix.c
+src/CMakeFiles/chocolate-doom.dir/w_file_posix.c.o: /home/loganwyatt/chocolate-doom/src/w_file_posix.c
 src/CMakeFiles/chocolate-doom.dir/w_file_posix.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object src/CMakeFiles/chocolate-doom.dir/w_file_posix.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/w_file_posix.c.o -MF CMakeFiles/chocolate-doom.dir/w_file_posix.c.o.d -o CMakeFiles/chocolate-doom.dir/w_file_posix.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file_posix.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/w_file_posix.c.o -MF CMakeFiles/chocolate-doom.dir/w_file_posix.c.o.d -o CMakeFiles/chocolate-doom.dir/w_file_posix.c.o -c /home/loganwyatt/chocolate-doom/src/w_file_posix.c
 
 src/CMakeFiles/chocolate-doom.dir/w_file_posix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/w_file_posix.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file_posix.c > CMakeFiles/chocolate-doom.dir/w_file_posix.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/w_file_posix.c > CMakeFiles/chocolate-doom.dir/w_file_posix.c.i
 
 src/CMakeFiles/chocolate-doom.dir/w_file_posix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/w_file_posix.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file_posix.c -o CMakeFiles/chocolate-doom.dir/w_file_posix.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/w_file_posix.c -o CMakeFiles/chocolate-doom.dir/w_file_posix.c.s
 
 src/CMakeFiles/chocolate-doom.dir/w_file_win32.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/w_file_win32.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/w_file_win32.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file_win32.c
+src/CMakeFiles/chocolate-doom.dir/w_file_win32.c.o: /home/loganwyatt/chocolate-doom/src/w_file_win32.c
 src/CMakeFiles/chocolate-doom.dir/w_file_win32.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object src/CMakeFiles/chocolate-doom.dir/w_file_win32.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/w_file_win32.c.o -MF CMakeFiles/chocolate-doom.dir/w_file_win32.c.o.d -o CMakeFiles/chocolate-doom.dir/w_file_win32.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file_win32.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/w_file_win32.c.o -MF CMakeFiles/chocolate-doom.dir/w_file_win32.c.o.d -o CMakeFiles/chocolate-doom.dir/w_file_win32.c.o -c /home/loganwyatt/chocolate-doom/src/w_file_win32.c
 
 src/CMakeFiles/chocolate-doom.dir/w_file_win32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/w_file_win32.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file_win32.c > CMakeFiles/chocolate-doom.dir/w_file_win32.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/w_file_win32.c > CMakeFiles/chocolate-doom.dir/w_file_win32.c.i
 
 src/CMakeFiles/chocolate-doom.dir/w_file_win32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/w_file_win32.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file_win32.c -o CMakeFiles/chocolate-doom.dir/w_file_win32.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/w_file_win32.c -o CMakeFiles/chocolate-doom.dir/w_file_win32.c.s
 
 src/CMakeFiles/chocolate-doom.dir/w_merge.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/w_merge.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/w_merge.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_merge.c
+src/CMakeFiles/chocolate-doom.dir/w_merge.c.o: /home/loganwyatt/chocolate-doom/src/w_merge.c
 src/CMakeFiles/chocolate-doom.dir/w_merge.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object src/CMakeFiles/chocolate-doom.dir/w_merge.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/w_merge.c.o -MF CMakeFiles/chocolate-doom.dir/w_merge.c.o.d -o CMakeFiles/chocolate-doom.dir/w_merge.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_merge.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/w_merge.c.o -MF CMakeFiles/chocolate-doom.dir/w_merge.c.o.d -o CMakeFiles/chocolate-doom.dir/w_merge.c.o -c /home/loganwyatt/chocolate-doom/src/w_merge.c
 
 src/CMakeFiles/chocolate-doom.dir/w_merge.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/w_merge.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_merge.c > CMakeFiles/chocolate-doom.dir/w_merge.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/w_merge.c > CMakeFiles/chocolate-doom.dir/w_merge.c.i
 
 src/CMakeFiles/chocolate-doom.dir/w_merge.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/w_merge.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_merge.c -o CMakeFiles/chocolate-doom.dir/w_merge.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/w_merge.c -o CMakeFiles/chocolate-doom.dir/w_merge.c.s
 
 src/CMakeFiles/chocolate-doom.dir/z_zone.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/z_zone.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/z_zone.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/z_zone.c
+src/CMakeFiles/chocolate-doom.dir/z_zone.c.o: /home/loganwyatt/chocolate-doom/src/z_zone.c
 src/CMakeFiles/chocolate-doom.dir/z_zone.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object src/CMakeFiles/chocolate-doom.dir/z_zone.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/z_zone.c.o -MF CMakeFiles/chocolate-doom.dir/z_zone.c.o.d -o CMakeFiles/chocolate-doom.dir/z_zone.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/z_zone.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/z_zone.c.o -MF CMakeFiles/chocolate-doom.dir/z_zone.c.o.d -o CMakeFiles/chocolate-doom.dir/z_zone.c.o -c /home/loganwyatt/chocolate-doom/src/z_zone.c
 
 src/CMakeFiles/chocolate-doom.dir/z_zone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/z_zone.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/z_zone.c > CMakeFiles/chocolate-doom.dir/z_zone.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/z_zone.c > CMakeFiles/chocolate-doom.dir/z_zone.c.i
 
 src/CMakeFiles/chocolate-doom.dir/z_zone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/z_zone.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/z_zone.c -o CMakeFiles/chocolate-doom.dir/z_zone.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/z_zone.c -o CMakeFiles/chocolate-doom.dir/z_zone.c.s
 
 src/CMakeFiles/chocolate-doom.dir/deh_io.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/deh_io.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/deh_io.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_io.c
+src/CMakeFiles/chocolate-doom.dir/deh_io.c.o: /home/loganwyatt/chocolate-doom/src/deh_io.c
 src/CMakeFiles/chocolate-doom.dir/deh_io.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object src/CMakeFiles/chocolate-doom.dir/deh_io.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/deh_io.c.o -MF CMakeFiles/chocolate-doom.dir/deh_io.c.o.d -o CMakeFiles/chocolate-doom.dir/deh_io.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_io.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/deh_io.c.o -MF CMakeFiles/chocolate-doom.dir/deh_io.c.o.d -o CMakeFiles/chocolate-doom.dir/deh_io.c.o -c /home/loganwyatt/chocolate-doom/src/deh_io.c
 
 src/CMakeFiles/chocolate-doom.dir/deh_io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/deh_io.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_io.c > CMakeFiles/chocolate-doom.dir/deh_io.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/deh_io.c > CMakeFiles/chocolate-doom.dir/deh_io.c.i
 
 src/CMakeFiles/chocolate-doom.dir/deh_io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/deh_io.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_io.c -o CMakeFiles/chocolate-doom.dir/deh_io.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/deh_io.c -o CMakeFiles/chocolate-doom.dir/deh_io.c.s
 
 src/CMakeFiles/chocolate-doom.dir/deh_main.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/deh_main.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/deh_main.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_main.c
+src/CMakeFiles/chocolate-doom.dir/deh_main.c.o: /home/loganwyatt/chocolate-doom/src/deh_main.c
 src/CMakeFiles/chocolate-doom.dir/deh_main.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object src/CMakeFiles/chocolate-doom.dir/deh_main.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/deh_main.c.o -MF CMakeFiles/chocolate-doom.dir/deh_main.c.o.d -o CMakeFiles/chocolate-doom.dir/deh_main.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_main.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/deh_main.c.o -MF CMakeFiles/chocolate-doom.dir/deh_main.c.o.d -o CMakeFiles/chocolate-doom.dir/deh_main.c.o -c /home/loganwyatt/chocolate-doom/src/deh_main.c
 
 src/CMakeFiles/chocolate-doom.dir/deh_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/deh_main.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_main.c > CMakeFiles/chocolate-doom.dir/deh_main.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/deh_main.c > CMakeFiles/chocolate-doom.dir/deh_main.c.i
 
 src/CMakeFiles/chocolate-doom.dir/deh_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/deh_main.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_main.c -o CMakeFiles/chocolate-doom.dir/deh_main.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/deh_main.c -o CMakeFiles/chocolate-doom.dir/deh_main.c.s
 
 src/CMakeFiles/chocolate-doom.dir/deh_mapping.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/deh_mapping.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/deh_mapping.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_mapping.c
+src/CMakeFiles/chocolate-doom.dir/deh_mapping.c.o: /home/loganwyatt/chocolate-doom/src/deh_mapping.c
 src/CMakeFiles/chocolate-doom.dir/deh_mapping.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object src/CMakeFiles/chocolate-doom.dir/deh_mapping.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/deh_mapping.c.o -MF CMakeFiles/chocolate-doom.dir/deh_mapping.c.o.d -o CMakeFiles/chocolate-doom.dir/deh_mapping.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_mapping.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/deh_mapping.c.o -MF CMakeFiles/chocolate-doom.dir/deh_mapping.c.o.d -o CMakeFiles/chocolate-doom.dir/deh_mapping.c.o -c /home/loganwyatt/chocolate-doom/src/deh_mapping.c
 
 src/CMakeFiles/chocolate-doom.dir/deh_mapping.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/deh_mapping.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_mapping.c > CMakeFiles/chocolate-doom.dir/deh_mapping.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/deh_mapping.c > CMakeFiles/chocolate-doom.dir/deh_mapping.c.i
 
 src/CMakeFiles/chocolate-doom.dir/deh_mapping.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/deh_mapping.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_mapping.c -o CMakeFiles/chocolate-doom.dir/deh_mapping.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/deh_mapping.c -o CMakeFiles/chocolate-doom.dir/deh_mapping.c.s
 
 src/CMakeFiles/chocolate-doom.dir/deh_text.c.o: src/CMakeFiles/chocolate-doom.dir/flags.make
 src/CMakeFiles/chocolate-doom.dir/deh_text.c.o: src/CMakeFiles/chocolate-doom.dir/includes_C.rsp
-src/CMakeFiles/chocolate-doom.dir/deh_text.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_text.c
+src/CMakeFiles/chocolate-doom.dir/deh_text.c.o: /home/loganwyatt/chocolate-doom/src/deh_text.c
 src/CMakeFiles/chocolate-doom.dir/deh_text.c.o: src/CMakeFiles/chocolate-doom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object src/CMakeFiles/chocolate-doom.dir/deh_text.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/deh_text.c.o -MF CMakeFiles/chocolate-doom.dir/deh_text.c.o.d -o CMakeFiles/chocolate-doom.dir/deh_text.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_text.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/chocolate-doom.dir/deh_text.c.o -MF CMakeFiles/chocolate-doom.dir/deh_text.c.o.d -o CMakeFiles/chocolate-doom.dir/deh_text.c.o -c /home/loganwyatt/chocolate-doom/src/deh_text.c
 
 src/CMakeFiles/chocolate-doom.dir/deh_text.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chocolate-doom.dir/deh_text.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_text.c > CMakeFiles/chocolate-doom.dir/deh_text.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/src/deh_text.c > CMakeFiles/chocolate-doom.dir/deh_text.c.i
 
 src/CMakeFiles/chocolate-doom.dir/deh_text.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chocolate-doom.dir/deh_text.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/src/deh_text.c -o CMakeFiles/chocolate-doom.dir/deh_text.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/src && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/src/deh_text.c -o CMakeFiles/chocolate-doom.dir/deh_text.c.s
 
 # Object files for target chocolate-doom
 chocolate__doom_OBJECTS = \
@@ -1200,6 +1200,6 @@ src/CMakeFiles/chocolate-doom.dir/clean:
 .PHONY : src/CMakeFiles/chocolate-doom.dir/clean
 
 src/CMakeFiles/chocolate-doom.dir/depend:
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/loganwyatt/swDOOM/public/chocolate-doom /home/loganwyatt/swDOOM/public/chocolate-doom/src /home/loganwyatt/swDOOM/public/Doom_wasm/build /home/loganwyatt/swDOOM/public/Doom_wasm/build/src /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/CMakeFiles/chocolate-doom.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/loganwyatt/chocolate-doom /home/loganwyatt/chocolate-doom/src /home/loganwyatt/swDOOM/public/Doom_wasm/build /home/loganwyatt/swDOOM/public/Doom_wasm/build/src /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/CMakeFiles/chocolate-doom.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/chocolate-doom.dir/depend
 

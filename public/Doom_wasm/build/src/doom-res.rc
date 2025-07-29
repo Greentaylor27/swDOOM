@@ -1,8 +1,8 @@
-1 ICON "/home/loganwyatt/swDOOM/public/chocolate-doom/data/doom.ico"
+1 ICON "/home/loganwyatt/chocolate-doom/data/doom.ico"
 
 #include <winuser.h>
 
-CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "/home/loganwyatt/swDOOM/public/chocolate-doom/src/manifest.xml"
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "/home/loganwyatt/chocolate-doom/src/manifest.xml"
 
 1 VERSIONINFO
 PRODUCTVERSION 3, 1, 0, 0

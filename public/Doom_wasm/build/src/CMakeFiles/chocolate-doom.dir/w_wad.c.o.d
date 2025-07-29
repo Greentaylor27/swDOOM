@@ -1,5 +1,5 @@
 src/CMakeFiles/chocolate-doom.dir/w_wad.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_wad.c \
+  /home/loganwyatt/chocolate-doom/src/w_wad.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/ctype.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/ctype.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/features.h \
@@ -16,7 +16,7 @@ src/CMakeFiles/chocolate-doom.dir/w_wad.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/string.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/string.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doomtype.h \
+  /home/loganwyatt/chocolate-doom/src/doomtype.h \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/../config.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/inttypes.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/inttypes.h \
@@ -24,7 +24,7 @@ src/CMakeFiles/chocolate-doom.dir/w_wad.c.o: \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/limits.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_swap.h \
+  /home/loganwyatt/chocolate-doom/src/i_swap.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_endian.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_stdinc.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_config.h \
@@ -41,15 +41,15 @@ src/CMakeFiles/chocolate-doom.dir/w_wad.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/wchar.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/math.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/math.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_system.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_ticcmd.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_event.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_video.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_misc.h \
+  /home/loganwyatt/chocolate-doom/src/i_system.h \
+  /home/loganwyatt/chocolate-doom/src/d_ticcmd.h \
+  /home/loganwyatt/chocolate-doom/src/d_event.h \
+  /home/loganwyatt/chocolate-doom/src/i_video.h \
+  /home/loganwyatt/chocolate-doom/src/m_misc.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/sys/stat.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/sys/stat.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/stat.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/v_diskicon.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/z_zone.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_wad.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/w_file.h
+  /home/loganwyatt/chocolate-doom/src/v_diskicon.h \
+  /home/loganwyatt/chocolate-doom/src/z_zone.h \
+  /home/loganwyatt/chocolate-doom/src/w_wad.h \
+  /home/loganwyatt/chocolate-doom/src/w_file.h

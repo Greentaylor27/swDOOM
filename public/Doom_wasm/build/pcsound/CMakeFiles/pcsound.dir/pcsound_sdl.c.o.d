@@ -1,5 +1,5 @@
 pcsound/CMakeFiles/pcsound.dir/pcsound_sdl.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_sdl.c \
+  /home/loganwyatt/chocolate-doom/pcsound/pcsound_sdl.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stddef.h \
@@ -80,6 +80,6 @@ pcsound/CMakeFiles/pcsound.dir/pcsound_sdl.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_version.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_locale.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_misc.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/pcsound/pcsound_internal.h \
+  /home/loganwyatt/chocolate-doom/pcsound/pcsound.h \
+  /home/loganwyatt/chocolate-doom/pcsound/pcsound_internal.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_mixer.h

@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/loganwyatt/swDOOM/public/chocolate-doom
+CMAKE_SOURCE_DIR = /home/loganwyatt/chocolate-doom
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/loganwyatt/swDOOM/public/Doom_wasm/build
@@ -71,138 +71,138 @@ include opl/CMakeFiles/opl.dir/flags.make
 
 opl/CMakeFiles/opl.dir/opl.c.o: opl/CMakeFiles/opl.dir/flags.make
 opl/CMakeFiles/opl.dir/opl.c.o: opl/CMakeFiles/opl.dir/includes_C.rsp
-opl/CMakeFiles/opl.dir/opl.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl.c
+opl/CMakeFiles/opl.dir/opl.c.o: /home/loganwyatt/chocolate-doom/opl/opl.c
 opl/CMakeFiles/opl.dir/opl.c.o: opl/CMakeFiles/opl.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object opl/CMakeFiles/opl.dir/opl.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT opl/CMakeFiles/opl.dir/opl.c.o -MF CMakeFiles/opl.dir/opl.c.o.d -o CMakeFiles/opl.dir/opl.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT opl/CMakeFiles/opl.dir/opl.c.o -MF CMakeFiles/opl.dir/opl.c.o.d -o CMakeFiles/opl.dir/opl.c.o -c /home/loganwyatt/chocolate-doom/opl/opl.c
 
 opl/CMakeFiles/opl.dir/opl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/opl.dir/opl.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl.c > CMakeFiles/opl.dir/opl.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/opl/opl.c > CMakeFiles/opl.dir/opl.c.i
 
 opl/CMakeFiles/opl.dir/opl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/opl.dir/opl.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl.c -o CMakeFiles/opl.dir/opl.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/opl/opl.c -o CMakeFiles/opl.dir/opl.c.s
 
 opl/CMakeFiles/opl.dir/opl_linux.c.o: opl/CMakeFiles/opl.dir/flags.make
 opl/CMakeFiles/opl.dir/opl_linux.c.o: opl/CMakeFiles/opl.dir/includes_C.rsp
-opl/CMakeFiles/opl.dir/opl_linux.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_linux.c
+opl/CMakeFiles/opl.dir/opl_linux.c.o: /home/loganwyatt/chocolate-doom/opl/opl_linux.c
 opl/CMakeFiles/opl.dir/opl_linux.c.o: opl/CMakeFiles/opl.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object opl/CMakeFiles/opl.dir/opl_linux.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT opl/CMakeFiles/opl.dir/opl_linux.c.o -MF CMakeFiles/opl.dir/opl_linux.c.o.d -o CMakeFiles/opl.dir/opl_linux.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_linux.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT opl/CMakeFiles/opl.dir/opl_linux.c.o -MF CMakeFiles/opl.dir/opl_linux.c.o.d -o CMakeFiles/opl.dir/opl_linux.c.o -c /home/loganwyatt/chocolate-doom/opl/opl_linux.c
 
 opl/CMakeFiles/opl.dir/opl_linux.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/opl.dir/opl_linux.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_linux.c > CMakeFiles/opl.dir/opl_linux.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/opl/opl_linux.c > CMakeFiles/opl.dir/opl_linux.c.i
 
 opl/CMakeFiles/opl.dir/opl_linux.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/opl.dir/opl_linux.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_linux.c -o CMakeFiles/opl.dir/opl_linux.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/opl/opl_linux.c -o CMakeFiles/opl.dir/opl_linux.c.s
 
 opl/CMakeFiles/opl.dir/opl_obsd.c.o: opl/CMakeFiles/opl.dir/flags.make
 opl/CMakeFiles/opl.dir/opl_obsd.c.o: opl/CMakeFiles/opl.dir/includes_C.rsp
-opl/CMakeFiles/opl.dir/opl_obsd.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_obsd.c
+opl/CMakeFiles/opl.dir/opl_obsd.c.o: /home/loganwyatt/chocolate-doom/opl/opl_obsd.c
 opl/CMakeFiles/opl.dir/opl_obsd.c.o: opl/CMakeFiles/opl.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object opl/CMakeFiles/opl.dir/opl_obsd.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT opl/CMakeFiles/opl.dir/opl_obsd.c.o -MF CMakeFiles/opl.dir/opl_obsd.c.o.d -o CMakeFiles/opl.dir/opl_obsd.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_obsd.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT opl/CMakeFiles/opl.dir/opl_obsd.c.o -MF CMakeFiles/opl.dir/opl_obsd.c.o.d -o CMakeFiles/opl.dir/opl_obsd.c.o -c /home/loganwyatt/chocolate-doom/opl/opl_obsd.c
 
 opl/CMakeFiles/opl.dir/opl_obsd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/opl.dir/opl_obsd.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_obsd.c > CMakeFiles/opl.dir/opl_obsd.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/opl/opl_obsd.c > CMakeFiles/opl.dir/opl_obsd.c.i
 
 opl/CMakeFiles/opl.dir/opl_obsd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/opl.dir/opl_obsd.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_obsd.c -o CMakeFiles/opl.dir/opl_obsd.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/opl/opl_obsd.c -o CMakeFiles/opl.dir/opl_obsd.c.s
 
 opl/CMakeFiles/opl.dir/opl_queue.c.o: opl/CMakeFiles/opl.dir/flags.make
 opl/CMakeFiles/opl.dir/opl_queue.c.o: opl/CMakeFiles/opl.dir/includes_C.rsp
-opl/CMakeFiles/opl.dir/opl_queue.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_queue.c
+opl/CMakeFiles/opl.dir/opl_queue.c.o: /home/loganwyatt/chocolate-doom/opl/opl_queue.c
 opl/CMakeFiles/opl.dir/opl_queue.c.o: opl/CMakeFiles/opl.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object opl/CMakeFiles/opl.dir/opl_queue.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT opl/CMakeFiles/opl.dir/opl_queue.c.o -MF CMakeFiles/opl.dir/opl_queue.c.o.d -o CMakeFiles/opl.dir/opl_queue.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_queue.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT opl/CMakeFiles/opl.dir/opl_queue.c.o -MF CMakeFiles/opl.dir/opl_queue.c.o.d -o CMakeFiles/opl.dir/opl_queue.c.o -c /home/loganwyatt/chocolate-doom/opl/opl_queue.c
 
 opl/CMakeFiles/opl.dir/opl_queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/opl.dir/opl_queue.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_queue.c > CMakeFiles/opl.dir/opl_queue.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/opl/opl_queue.c > CMakeFiles/opl.dir/opl_queue.c.i
 
 opl/CMakeFiles/opl.dir/opl_queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/opl.dir/opl_queue.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_queue.c -o CMakeFiles/opl.dir/opl_queue.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/opl/opl_queue.c -o CMakeFiles/opl.dir/opl_queue.c.s
 
 opl/CMakeFiles/opl.dir/opl_sdl.c.o: opl/CMakeFiles/opl.dir/flags.make
 opl/CMakeFiles/opl.dir/opl_sdl.c.o: opl/CMakeFiles/opl.dir/includes_C.rsp
-opl/CMakeFiles/opl.dir/opl_sdl.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_sdl.c
+opl/CMakeFiles/opl.dir/opl_sdl.c.o: /home/loganwyatt/chocolate-doom/opl/opl_sdl.c
 opl/CMakeFiles/opl.dir/opl_sdl.c.o: opl/CMakeFiles/opl.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object opl/CMakeFiles/opl.dir/opl_sdl.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT opl/CMakeFiles/opl.dir/opl_sdl.c.o -MF CMakeFiles/opl.dir/opl_sdl.c.o.d -o CMakeFiles/opl.dir/opl_sdl.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_sdl.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT opl/CMakeFiles/opl.dir/opl_sdl.c.o -MF CMakeFiles/opl.dir/opl_sdl.c.o.d -o CMakeFiles/opl.dir/opl_sdl.c.o -c /home/loganwyatt/chocolate-doom/opl/opl_sdl.c
 
 opl/CMakeFiles/opl.dir/opl_sdl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/opl.dir/opl_sdl.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_sdl.c > CMakeFiles/opl.dir/opl_sdl.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/opl/opl_sdl.c > CMakeFiles/opl.dir/opl_sdl.c.i
 
 opl/CMakeFiles/opl.dir/opl_sdl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/opl.dir/opl_sdl.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_sdl.c -o CMakeFiles/opl.dir/opl_sdl.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/opl/opl_sdl.c -o CMakeFiles/opl.dir/opl_sdl.c.s
 
 opl/CMakeFiles/opl.dir/opl_timer.c.o: opl/CMakeFiles/opl.dir/flags.make
 opl/CMakeFiles/opl.dir/opl_timer.c.o: opl/CMakeFiles/opl.dir/includes_C.rsp
-opl/CMakeFiles/opl.dir/opl_timer.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_timer.c
+opl/CMakeFiles/opl.dir/opl_timer.c.o: /home/loganwyatt/chocolate-doom/opl/opl_timer.c
 opl/CMakeFiles/opl.dir/opl_timer.c.o: opl/CMakeFiles/opl.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object opl/CMakeFiles/opl.dir/opl_timer.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT opl/CMakeFiles/opl.dir/opl_timer.c.o -MF CMakeFiles/opl.dir/opl_timer.c.o.d -o CMakeFiles/opl.dir/opl_timer.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_timer.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT opl/CMakeFiles/opl.dir/opl_timer.c.o -MF CMakeFiles/opl.dir/opl_timer.c.o.d -o CMakeFiles/opl.dir/opl_timer.c.o -c /home/loganwyatt/chocolate-doom/opl/opl_timer.c
 
 opl/CMakeFiles/opl.dir/opl_timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/opl.dir/opl_timer.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_timer.c > CMakeFiles/opl.dir/opl_timer.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/opl/opl_timer.c > CMakeFiles/opl.dir/opl_timer.c.i
 
 opl/CMakeFiles/opl.dir/opl_timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/opl.dir/opl_timer.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_timer.c -o CMakeFiles/opl.dir/opl_timer.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/opl/opl_timer.c -o CMakeFiles/opl.dir/opl_timer.c.s
 
 opl/CMakeFiles/opl.dir/opl_win32.c.o: opl/CMakeFiles/opl.dir/flags.make
 opl/CMakeFiles/opl.dir/opl_win32.c.o: opl/CMakeFiles/opl.dir/includes_C.rsp
-opl/CMakeFiles/opl.dir/opl_win32.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_win32.c
+opl/CMakeFiles/opl.dir/opl_win32.c.o: /home/loganwyatt/chocolate-doom/opl/opl_win32.c
 opl/CMakeFiles/opl.dir/opl_win32.c.o: opl/CMakeFiles/opl.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object opl/CMakeFiles/opl.dir/opl_win32.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT opl/CMakeFiles/opl.dir/opl_win32.c.o -MF CMakeFiles/opl.dir/opl_win32.c.o.d -o CMakeFiles/opl.dir/opl_win32.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_win32.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT opl/CMakeFiles/opl.dir/opl_win32.c.o -MF CMakeFiles/opl.dir/opl_win32.c.o.d -o CMakeFiles/opl.dir/opl_win32.c.o -c /home/loganwyatt/chocolate-doom/opl/opl_win32.c
 
 opl/CMakeFiles/opl.dir/opl_win32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/opl.dir/opl_win32.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_win32.c > CMakeFiles/opl.dir/opl_win32.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/opl/opl_win32.c > CMakeFiles/opl.dir/opl_win32.c.i
 
 opl/CMakeFiles/opl.dir/opl_win32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/opl.dir/opl_win32.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_win32.c -o CMakeFiles/opl.dir/opl_win32.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/opl/opl_win32.c -o CMakeFiles/opl.dir/opl_win32.c.s
 
 opl/CMakeFiles/opl.dir/ioperm_sys.c.o: opl/CMakeFiles/opl.dir/flags.make
 opl/CMakeFiles/opl.dir/ioperm_sys.c.o: opl/CMakeFiles/opl.dir/includes_C.rsp
-opl/CMakeFiles/opl.dir/ioperm_sys.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/opl/ioperm_sys.c
+opl/CMakeFiles/opl.dir/ioperm_sys.c.o: /home/loganwyatt/chocolate-doom/opl/ioperm_sys.c
 opl/CMakeFiles/opl.dir/ioperm_sys.c.o: opl/CMakeFiles/opl.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object opl/CMakeFiles/opl.dir/ioperm_sys.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT opl/CMakeFiles/opl.dir/ioperm_sys.c.o -MF CMakeFiles/opl.dir/ioperm_sys.c.o.d -o CMakeFiles/opl.dir/ioperm_sys.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/opl/ioperm_sys.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT opl/CMakeFiles/opl.dir/ioperm_sys.c.o -MF CMakeFiles/opl.dir/ioperm_sys.c.o.d -o CMakeFiles/opl.dir/ioperm_sys.c.o -c /home/loganwyatt/chocolate-doom/opl/ioperm_sys.c
 
 opl/CMakeFiles/opl.dir/ioperm_sys.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/opl.dir/ioperm_sys.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/opl/ioperm_sys.c > CMakeFiles/opl.dir/ioperm_sys.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/opl/ioperm_sys.c > CMakeFiles/opl.dir/ioperm_sys.c.i
 
 opl/CMakeFiles/opl.dir/ioperm_sys.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/opl.dir/ioperm_sys.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/opl/ioperm_sys.c -o CMakeFiles/opl.dir/ioperm_sys.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/opl/ioperm_sys.c -o CMakeFiles/opl.dir/ioperm_sys.c.s
 
 opl/CMakeFiles/opl.dir/opl3.c.o: opl/CMakeFiles/opl.dir/flags.make
 opl/CMakeFiles/opl.dir/opl3.c.o: opl/CMakeFiles/opl.dir/includes_C.rsp
-opl/CMakeFiles/opl.dir/opl3.c.o: /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl3.c
+opl/CMakeFiles/opl.dir/opl3.c.o: /home/loganwyatt/chocolate-doom/opl/opl3.c
 opl/CMakeFiles/opl.dir/opl3.c.o: opl/CMakeFiles/opl.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object opl/CMakeFiles/opl.dir/opl3.c.o"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT opl/CMakeFiles/opl.dir/opl3.c.o -MF CMakeFiles/opl.dir/opl3.c.o.d -o CMakeFiles/opl.dir/opl3.c.o -c /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl3.c
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT opl/CMakeFiles/opl.dir/opl3.c.o -MF CMakeFiles/opl.dir/opl3.c.o.d -o CMakeFiles/opl.dir/opl3.c.o -c /home/loganwyatt/chocolate-doom/opl/opl3.c
 
 opl/CMakeFiles/opl.dir/opl3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/opl.dir/opl3.c.i"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl3.c > CMakeFiles/opl.dir/opl3.c.i
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/loganwyatt/chocolate-doom/opl/opl3.c > CMakeFiles/opl.dir/opl3.c.i
 
 opl/CMakeFiles/opl.dir/opl3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/opl.dir/opl3.c.s"
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl3.c -o CMakeFiles/opl.dir/opl3.c.s
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl && /usr/bin/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/loganwyatt/chocolate-doom/opl/opl3.c -o CMakeFiles/opl.dir/opl3.c.s
 
 # Object files for target opl
 opl_OBJECTS = \
@@ -243,6 +243,6 @@ opl/CMakeFiles/opl.dir/clean:
 .PHONY : opl/CMakeFiles/opl.dir/clean
 
 opl/CMakeFiles/opl.dir/depend:
-	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/loganwyatt/swDOOM/public/chocolate-doom /home/loganwyatt/swDOOM/public/chocolate-doom/opl /home/loganwyatt/swDOOM/public/Doom_wasm/build /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl/CMakeFiles/opl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/loganwyatt/swDOOM/public/Doom_wasm/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/loganwyatt/chocolate-doom /home/loganwyatt/chocolate-doom/opl /home/loganwyatt/swDOOM/public/Doom_wasm/build /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl/CMakeFiles/opl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : opl/CMakeFiles/opl.dir/depend
 

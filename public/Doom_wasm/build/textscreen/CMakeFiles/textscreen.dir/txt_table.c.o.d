@@ -1,5 +1,5 @@
 textscreen/CMakeFiles/textscreen.dir/txt_table.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_table.c \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_table.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/stdarg.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stdarg.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/stdlib.h \
@@ -10,16 +10,16 @@ textscreen/CMakeFiles/textscreen.dir/txt_table.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/string.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/string.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/../src/doomkeys.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_desktop.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_window.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_widget.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_table.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_window_action.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_gui.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_io.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_main.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_sdl.h \
+  /home/loganwyatt/chocolate-doom/textscreen/../src/doomkeys.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_desktop.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_window.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_widget.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_table.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_window_action.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_gui.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_io.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_main.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_sdl.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_main.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_stdinc.h \
@@ -89,5 +89,5 @@ textscreen/CMakeFiles/textscreen.dir/txt_table.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_version.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_locale.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_misc.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_separator.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_strut.h
+  /home/loganwyatt/chocolate-doom/textscreen/txt_separator.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_strut.h

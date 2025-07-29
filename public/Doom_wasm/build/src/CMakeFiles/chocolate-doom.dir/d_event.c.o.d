@@ -1,12 +1,12 @@
 src/CMakeFiles/chocolate-doom.dir/d_event.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_event.c \
+  /home/loganwyatt/chocolate-doom/src/d_event.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/stdlib.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdlib.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/features.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/alltypes.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/alloca.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_event.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doomtype.h \
+  /home/loganwyatt/chocolate-doom/src/d_event.h \
+  /home/loganwyatt/chocolate-doom/src/doomtype.h \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/../config.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/inttypes.h \

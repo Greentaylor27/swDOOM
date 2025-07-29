@@ -1,5 +1,4 @@
-opl/CMakeFiles/opl.dir/opl.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl.c \
+opl/CMakeFiles/opl.dir/opl.c.o: /home/loganwyatt/chocolate-doom/opl/opl.c \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/opl/../config.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
@@ -80,8 +79,8 @@ opl/CMakeFiles/opl.dir/opl.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_version.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_locale.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_misc.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/opl/opl_internal.h \
+  /home/loganwyatt/chocolate-doom/opl/opl.h \
+  /home/loganwyatt/chocolate-doom/opl/opl_internal.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/emscripten.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/emscripten/emscripten.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/emscripten/em_asm.h \

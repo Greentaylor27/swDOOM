@@ -1,5 +1,5 @@
 src/CMakeFiles/chocolate-doom.dir/net_server.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_server.c \
+  /home/loganwyatt/chocolate-doom/src/net_server.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stddef.h \
@@ -17,32 +17,32 @@ src/CMakeFiles/chocolate-doom.dir/net_server.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/string.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
   /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/../config.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/doomtype.h \
+  /home/loganwyatt/chocolate-doom/src/doomtype.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/inttypes.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/inttypes.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/stdbool.h \
   /usr/lib/llvm-13/lib/clang/13.0.1/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/limits.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/limits.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_mode.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_system.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_ticcmd.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/d_event.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/i_timer.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_argv.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/m_misc.h \
+  /home/loganwyatt/chocolate-doom/src/d_mode.h \
+  /home/loganwyatt/chocolate-doom/src/i_system.h \
+  /home/loganwyatt/chocolate-doom/src/d_ticcmd.h \
+  /home/loganwyatt/chocolate-doom/src/d_event.h \
+  /home/loganwyatt/chocolate-doom/src/i_timer.h \
+  /home/loganwyatt/chocolate-doom/src/m_argv.h \
+  /home/loganwyatt/chocolate-doom/src/m_misc.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/compat/sys/stat.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/sys/stat.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/bits/stat.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_client.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/sha1.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_defs.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_common.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_packet.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_io.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_loop.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_query.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_server.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_sdl.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/net_structrw.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/src/aes_prng.h
+  /home/loganwyatt/chocolate-doom/src/net_client.h \
+  /home/loganwyatt/chocolate-doom/src/sha1.h \
+  /home/loganwyatt/chocolate-doom/src/net_defs.h \
+  /home/loganwyatt/chocolate-doom/src/net_common.h \
+  /home/loganwyatt/chocolate-doom/src/net_packet.h \
+  /home/loganwyatt/chocolate-doom/src/net_io.h \
+  /home/loganwyatt/chocolate-doom/src/net_loop.h \
+  /home/loganwyatt/chocolate-doom/src/net_query.h \
+  /home/loganwyatt/chocolate-doom/src/net_server.h \
+  /home/loganwyatt/chocolate-doom/src/net_sdl.h \
+  /home/loganwyatt/chocolate-doom/src/net_structrw.h \
+  /home/loganwyatt/chocolate-doom/src/aes_prng.h

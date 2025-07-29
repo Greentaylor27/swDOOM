@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/loganwyatt/swDOOM/public/chocolate-doom
+CMAKE_SOURCE_DIR = /home/loganwyatt/chocolate-doom
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/loganwyatt/swDOOM/public/Doom_wasm/build

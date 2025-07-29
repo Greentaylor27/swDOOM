@@ -1,5 +1,5 @@
 textscreen/CMakeFiles/textscreen.dir/txt_sdl.c.o: \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_sdl.c \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_sdl.c \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_main.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_stdinc.h \
@@ -79,11 +79,11 @@ textscreen/CMakeFiles/textscreen.dir/txt_sdl.c.o: \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_version.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_locale.h \
   /home/loganwyatt/.emscripten_cache/sysroot/include/SDL2/SDL_misc.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/../src/doomkeys.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_main.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_sdl.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/txt_utf8.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/fonts/small.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/fonts/normal.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/fonts/large.h \
-  /home/loganwyatt/swDOOM/public/chocolate-doom/textscreen/fonts/codepage.h
+  /home/loganwyatt/chocolate-doom/textscreen/../src/doomkeys.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_main.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_sdl.h \
+  /home/loganwyatt/chocolate-doom/textscreen/txt_utf8.h \
+  /home/loganwyatt/chocolate-doom/textscreen/fonts/small.h \
+  /home/loganwyatt/chocolate-doom/textscreen/fonts/normal.h \
+  /home/loganwyatt/chocolate-doom/textscreen/fonts/large.h \
+  /home/loganwyatt/chocolate-doom/textscreen/fonts/codepage.h
