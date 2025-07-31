@@ -36,16 +36,6 @@ export default function GameCanvas() {
 
   }, []);
 
-  const startGame = () => {
-    if (runtimeReady && typeof window.Module.callMain === 'function') {
-      console.log('[GAME] Starting Chocolate Doom...');
-      window.Module.callMain();
-      setGameStarted(true);
-    } else {
-      console.error('[GAME] Runtime not ready or callMain missing');
-    }
-  };
-
   return (
     <div>
       <canvas
@@ -53,14 +43,9 @@ export default function GameCanvas() {
         ref={canvasRef}
         width={640}
         height={480}
-        style={{ width: '100%', height: '100%' }}
+        style={{ display: 'block', width: '100%' }}
         onContextMenu={(e) => e.preventDefault()}
       />
-      {!gameStarted && (
-        <button onClick={startGame} disabled={!runtimeReady} style={{ marginTop: '10px' }}>
-          {runtimeReady ? 'Start Game' : 'Loading...'}
-        </button>
-      )}
     </div>
   );
 }
