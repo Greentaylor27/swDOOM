@@ -195,7 +195,7 @@ var Module = typeof Module != 'undefined' ? Module : {};
     }
 
     }
-    loadPackage({"files": [{"filename": "/DOOM1.WAD", "start": 0, "end": 28795076}], "remote_package_size": 28795076, "package_uuid": "0fe091e0-cf90-44d8-92fe-90d96706c69f"});
+    loadPackage({"files": [{"filename": "/DOOM1.WAD", "start": 0, "end": 28795076}], "remote_package_size": 28795076, "package_uuid": "fb208aae-1820-4268-91c4-3973034b1336"});
 
   })();
 
