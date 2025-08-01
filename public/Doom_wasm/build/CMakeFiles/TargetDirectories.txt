@@ -1,0 +1,17 @@
+/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles/edit_cache.dir
+/home/loganwyatt/swDOOM/public/Doom_wasm/build/CMakeFiles/rebuild_cache.dir
+/home/loganwyatt/swDOOM/public/Doom_wasm/build/textscreen/CMakeFiles/textscreen.dir
+/home/loganwyatt/swDOOM/public/Doom_wasm/build/textscreen/CMakeFiles/edit_cache.dir
+/home/loganwyatt/swDOOM/public/Doom_wasm/build/textscreen/CMakeFiles/rebuild_cache.dir
+/home/loganwyatt/swDOOM/public/Doom_wasm/build/opl/CMakeFiles/opl.dir
+/home/loganwyatt/swDOOM/public/Doom_wasm/build/opl/CMakeFiles/edit_cache.dir
+/home/loganwyatt/swDOOM/public/Doom_wasm/build/opl/CMakeFiles/rebuild_cache.dir
+/home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound/CMakeFiles/pcsound.dir
+/home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound/CMakeFiles/edit_cache.dir
+/home/loganwyatt/swDOOM/public/Doom_wasm/build/pcsound/CMakeFiles/rebuild_cache.dir
+/home/loganwyatt/swDOOM/public/Doom_wasm/build/src/CMakeFiles/chocolate-doom.dir
+/home/loganwyatt/swDOOM/public/Doom_wasm/build/src/CMakeFiles/edit_cache.dir
+/home/loganwyatt/swDOOM/public/Doom_wasm/build/src/CMakeFiles/rebuild_cache.dir
+/home/loganwyatt/swDOOM/public/Doom_wasm/build/src/doom/CMakeFiles/doom.dir
+/home/loganwyatt/swDOOM/public/Doom_wasm/build/src/doom/CMakeFiles/edit_cache.dir
+/home/loganwyatt/swDOOM/public/Doom_wasm/build/src/doom/CMakeFiles/rebuild_cache.dir

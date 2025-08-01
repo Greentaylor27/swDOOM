@@ -1,0 +1,20 @@
+opl/CMakeFiles/opl.dir/opl_queue.c.o: \
+  /home/loganwyatt/chocolate-doom/opl/opl_queue.c \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
+  /usr/lib/llvm-13/lib/clang/13.0.1/include/stddef.h \
+  /usr/lib/llvm-13/lib/clang/13.0.1/include/stdint.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/stdint.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/bits/alltypes.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/bits/stdint.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/features.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/compat/stdlib.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/stdlib.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/alloca.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/compat/string.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/string.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
+  /home/loganwyatt/chocolate-doom/opl/opl_queue.h \
+  /home/loganwyatt/chocolate-doom/opl/opl.h \
+  /usr/lib/llvm-13/lib/clang/13.0.1/include/inttypes.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/inttypes.h

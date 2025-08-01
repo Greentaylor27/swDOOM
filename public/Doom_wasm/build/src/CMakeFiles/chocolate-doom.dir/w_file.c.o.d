@@ -1,0 +1,21 @@
+src/CMakeFiles/chocolate-doom.dir/w_file.c.o: \
+  /home/loganwyatt/chocolate-doom/src/w_file.c \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/stdio.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/wasi/api.h \
+  /usr/lib/llvm-13/lib/clang/13.0.1/include/stddef.h \
+  /usr/lib/llvm-13/lib/clang/13.0.1/include/stdint.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/stdint.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/bits/alltypes.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/bits/stdint.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/features.h \
+  /home/loganwyatt/swDOOM/public/Doom_wasm/build/src/../config.h \
+  /home/loganwyatt/chocolate-doom/src/doomtype.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/strings.h \
+  /usr/lib/llvm-13/lib/clang/13.0.1/include/inttypes.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/inttypes.h \
+  /usr/lib/llvm-13/lib/clang/13.0.1/include/stdbool.h \
+  /usr/lib/llvm-13/lib/clang/13.0.1/include/limits.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/limits.h \
+  /home/loganwyatt/.emscripten_cache/sysroot/include/bits/limits.h \
+  /home/loganwyatt/chocolate-doom/src/m_argv.h \
+  /home/loganwyatt/chocolate-doom/src/w_file.h
