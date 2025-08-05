@@ -34,16 +34,27 @@ export default function GameCanvas() {
       document.body.appendChild(script);
     }
 
+    function resizeCanvas() {
+      const canvas = canvasRef.current;
+      if (canvas) {
+        canvas.width = canvas.offsetWidth;
+        canvas.height = canvas.offsetHeight;
+      }
+    }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+    return () => {
+      window.removeEventListener('resize', resizeCanvas);
+    };
+
   }, []);
 
   return (
-    <div>
+    <div className="screen-container">
       <canvas
         id='canvas'
         ref={canvasRef}
-        width={640}
-        height={480}
-        style={{ display: 'block', width: '100%' }}
+        style={{ display: 'block', width: '100%', height: '100%' }}
         onContextMenu={(e) => e.preventDefault()}
       />
     </div>
