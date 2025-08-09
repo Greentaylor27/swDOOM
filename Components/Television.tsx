@@ -11,6 +11,6 @@ export default function Television() {
       
       {/* here is the Tv control deck */}
       <TVControlDeck />
-    </div>
+      </div>
   )
 }

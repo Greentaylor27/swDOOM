@@ -175,17 +175,19 @@ body {
   border-radius: 32px 32px 40px 40px / 28px 28px 48px 48px;
   box-shadow: 0 12px 48px #000a, 0 2px 8px #222;
   padding: 32px 32px 48px 32px;
-  width: 100vw;
-  height: 100vh;
   margin: 25px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-height: 100vh;
+  max-width: 100vw;
+  overflow: hidden;
 }
 
 .screen {
-  width: 100%;
-  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: radial-gradient(ellipse at 60% 40%, #B0E0FF 0%, #222 100%);
   border: 6px solid #222;
   border-radius: 24px 24px 32px 32px / 20px 20px 40px 40px;
@@ -193,6 +195,9 @@ body {
   margin-bottom: 32px;
   position: relative;
   overflow: hidden;
+  aspect-ratio: 4 / 3;
+  width: 90%;
+  max-height: 70%;
 }
 
 .screen::after {
@@ -234,13 +239,9 @@ body {
   margin-right: 18px;
 }
 
-#canvas {
-  width: 100%;
-  height: 100%;
+canvas {
   display: block;
-}
-
-.screen-container {
-  width: 50%;
-  height: 75%
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }

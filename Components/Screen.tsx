@@ -16,6 +16,45 @@ export default function GameCanvas() {
   const [gameStarted, setGameStarted] = useState(false);
 
   useEffect(() => {
+    const preventFullscreen = () => {
+      const canvas = canvasRef.current;
+      if (canvas) {
+        canvas.requestFullscreen = () => {
+          console.warn('Preventing canvas from going Full Screen on load');
+        };
+      }
+    };
+
+    preventFullscreen();
+
+    const canvas = canvasRef.current;
+    const resizeCanvas = () => {
+      if (!canvas) return;
+    
+      const parent = canvas.parentElement;
+      if (!parent) return;
+
+      const parentWidth = parent.clientWidth;
+      const parentHeight = parent.clientHeight;
+
+      const aspectRatio = 4 / 3; 
+
+      let width = parentWidth;
+      let height = parentWidth / aspectRatio;
+
+      if (height > parentHeight) {
+        height = parentHeight;
+        width = height * aspectRatio;
+      }
+
+      // Scalling visuals to fit the parent container
+      canvas.style.width = `${width}px`;
+      canvas.style.height = `${height}px`;
+    };
+
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
+
     window.Module = {
       canvas: canvasRef.current,
       arguments: ['-iwad', '/DOOM1.WAD'],
@@ -34,27 +73,18 @@ export default function GameCanvas() {
       document.body.appendChild(script);
     }
 
-    function resizeCanvas() {
-      const canvas = canvasRef.current;
-      if (canvas) {
-        canvas.width = canvas.offsetWidth;
-        canvas.height = canvas.offsetHeight;
-      }
-    }
-    window.addEventListener('resize', resizeCanvas);
-    resizeCanvas();
+    // Clean up 
     return () => {
       window.removeEventListener('resize', resizeCanvas);
-    };
-
+    }
   }, []);
 
   return (
-    <div className="screen-container">
+    <div className="screen">
       <canvas
         id='canvas'
         ref={canvasRef}
-        style={{ display: 'block', width: '100%', height: '100%' }}
+        className='block'
         onContextMenu={(e) => e.preventDefault()}
       />
     </div>
