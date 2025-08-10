@@ -16,8 +16,17 @@ export default function GameCanvas() {
   const [runtimeReady, setRuntimeReady] = useState(false);
   const [gameStarted, setGameStarted] = useState(false);
   
-  useEffect(() => {
+  const resizeCanvas = () => {
+    const canvas = canvasRef.current;
+    const container = screenDivRef.current;
+    if (canvas && container) {
+      const rect = container.getBoundingClientRect();
+      canvas.width = rect.width;
+      canvas.height = rect.height;
+    }
+  }
 
+  useEffect(() => {
     const preventFullscreen = () => {
       const canvas = canvasRef.current;
       if (canvas) {
@@ -45,7 +54,14 @@ export default function GameCanvas() {
       script.async = true;
       script.setAttribute('data-wasm', 'chocolate-doom');
       document.body.appendChild(script);
-    };
+    }
+
+    resizeCanvas();
+    window.addEventListener("resize", resizeCanvas);
+
+    return () => {
+      window.removeEventListener("resize", resizeCanvas);
+    }
 
   }, []);
 

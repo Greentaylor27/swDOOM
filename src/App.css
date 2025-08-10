@@ -20,16 +20,16 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   border-radius: 1em;
 }
 
 .screen canvas {
-  max-width: 100vw;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
   display: block;
   image-rendering: pixelated;
   background-color: black;
+  object-fit: fill;
 }
 
 .TVControlDeck {
