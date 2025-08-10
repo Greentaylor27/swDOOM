@@ -12,10 +12,12 @@ declare global {
 
 export default function GameCanvas() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
+  const screenDivRef = useRef<HTMLDivElement | null>(null);
   const [runtimeReady, setRuntimeReady] = useState(false);
   const [gameStarted, setGameStarted] = useState(false);
-
+  
   useEffect(() => {
+
     const preventFullscreen = () => {
       const canvas = canvasRef.current;
       if (canvas) {
@@ -27,34 +29,6 @@ export default function GameCanvas() {
 
     preventFullscreen();
 
-    const canvas = canvasRef.current;
-    const resizeCanvas = () => {
-      if (!canvas) return;
-    
-      const parent = canvas.parentElement;
-      if (!parent) return;
-
-      const parentWidth = parent.clientWidth;
-      const parentHeight = parent.clientHeight;
-
-      const aspectRatio = 4 / 3; 
-
-      let width = parentWidth;
-      let height = parentWidth / aspectRatio;
-
-      if (height > parentHeight) {
-        height = parentHeight;
-        width = height * aspectRatio;
-      }
-
-      // Scalling visuals to fit the parent container
-      canvas.style.width = `${width}px`;
-      canvas.style.height = `${height}px`;
-    };
-
-    resizeCanvas();
-    window.addEventListener('resize', resizeCanvas);
-
     window.Module = {
       canvas: canvasRef.current,
       arguments: ['-iwad', '/DOOM1.WAD'],
@@ -63,7 +37,7 @@ export default function GameCanvas() {
         setRuntimeReady(true); // mark runtime as ready to start
       }
     };
-
+    
     const existingScript = document.querySelector('script[data-wasm="chocolate-doom"]');
     if (!existingScript) {
       const script = document.createElement('script');
@@ -71,20 +45,15 @@ export default function GameCanvas() {
       script.async = true;
       script.setAttribute('data-wasm', 'chocolate-doom');
       document.body.appendChild(script);
-    }
+    };
 
-    // Clean up 
-    return () => {
-      window.removeEventListener('resize', resizeCanvas);
-    }
   }, []);
 
   return (
-    <div className="screen">
+    <div className="screen" ref={screenDivRef}>
       <canvas
         id='canvas'
         ref={canvasRef}
-        className='block'
         onContextMenu={(e) => e.preventDefault()}
       />
     </div>
