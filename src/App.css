@@ -15,7 +15,7 @@ html, body {
 
 .screen {
   width: 95vw;
-  flex: 0 0 82vh;
+  height: 82vh;
   background: #0a1a0a;
   display: flex;
   justify-content: center;
@@ -29,7 +29,6 @@ html, body {
   display: block;
   image-rendering: pixelated;
   background-color: black;
-  object-fit: fill;
 }
 
 .TVControlDeck {

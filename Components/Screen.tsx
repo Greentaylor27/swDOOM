@@ -16,16 +16,6 @@ export default function GameCanvas() {
   const [runtimeReady, setRuntimeReady] = useState(false);
   const [gameStarted, setGameStarted] = useState(false);
   
-  const resizeCanvas = () => {
-    const canvas = canvasRef.current;
-    const container = screenDivRef.current;
-    if (canvas && container) {
-      const rect = container.getBoundingClientRect();
-      canvas.width = rect.width;
-      canvas.height = rect.height;
-    }
-  }
-
   useEffect(() => {
     const preventFullscreen = () => {
       const canvas = canvasRef.current;
@@ -35,14 +25,21 @@ export default function GameCanvas() {
         };
       }
     };
-
     preventFullscreen();
+
+    const width = screenDivRef.current?.clientWidth || 800;
+    const height = screenDivRef.current?.clientHeight || 600;
 
     window.Module = {
       canvas: canvasRef.current,
-      arguments: ['-iwad', '/DOOM1.WAD'],
+      arguments: [
+        '-iwad', '/DOOM1.WAD',
+        '-width', String(width),
+        '-height', String(height)
+      ],
       onRuntimeInitialized: () => {
         console.log('[WASM] Runtime initialized');
+        console.log(`Width: ${width}, Height: ${height}`)
         setRuntimeReady(true); // mark runtime as ready to start
       }
     };
@@ -55,14 +52,6 @@ export default function GameCanvas() {
       script.setAttribute('data-wasm', 'chocolate-doom');
       document.body.appendChild(script);
     }
-
-    resizeCanvas();
-    window.addEventListener("resize", resizeCanvas);
-
-    return () => {
-      window.removeEventListener("resize", resizeCanvas);
-    }
-
   }, []);
 
   return (
