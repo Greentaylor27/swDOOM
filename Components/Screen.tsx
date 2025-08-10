@@ -27,11 +27,13 @@ export default function GameCanvas() {
     };
     preventFullscreen();
 
+    // This is used to set the arguement '-width' and '-height' for the WAD file.
     const width = screenDivRef.current?.clientWidth || 800;
     const height = screenDivRef.current?.clientHeight || 600;
 
     window.Module = {
       canvas: canvasRef.current,
+      // The way this is initializing you can actually set the width and height arguements
       arguments: [
         '-iwad', '/DOOM1.WAD',
         '-width', String(width),
