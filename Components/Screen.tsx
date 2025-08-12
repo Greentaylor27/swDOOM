@@ -12,19 +12,40 @@ declare global {
 
 export default function GameCanvas() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
+  const screenDivRef = useRef<HTMLDivElement | null>(null);
   const [runtimeReady, setRuntimeReady] = useState(false);
   const [gameStarted, setGameStarted] = useState(false);
-
+  
   useEffect(() => {
+    const preventFullscreen = () => {
+      const canvas = canvasRef.current;
+      if (canvas) {
+        canvas.requestFullscreen = () => {
+          console.warn('Preventing canvas from going Full Screen on load');
+        };
+      }
+    };
+    preventFullscreen();
+
+    // This is used to set the arguement '-width' and '-height' for the WAD file.
+    const width = screenDivRef.current?.clientWidth || 800;
+    const height = screenDivRef.current?.clientHeight || 600;
+
     window.Module = {
       canvas: canvasRef.current,
-      arguments: ['-iwad', '/DOOM1.WAD'],
+      // The way this is initializing you can actually set the width and height arguements
+      arguments: [
+        '-iwad', '/DOOM1.WAD',
+        '-width', String(width),
+        '-height', String(height)
+      ],
       onRuntimeInitialized: () => {
         console.log('[WASM] Runtime initialized');
+        console.log(`Width: ${width}, Height: ${height}`)
         setRuntimeReady(true); // mark runtime as ready to start
       }
     };
-
+    
     const existingScript = document.querySelector('script[data-wasm="chocolate-doom"]');
     if (!existingScript) {
       const script = document.createElement('script');
@@ -33,17 +54,13 @@ export default function GameCanvas() {
       script.setAttribute('data-wasm', 'chocolate-doom');
       document.body.appendChild(script);
     }
-
   }, []);
 
   return (
-    <div>
+    <div className="screen" ref={screenDivRef}>
       <canvas
         id='canvas'
         ref={canvasRef}
-        width={640}
-        height={480}
-        style={{ display: 'block', width: '100%' }}
         onContextMenu={(e) => e.preventDefault()}
       />
     </div>
