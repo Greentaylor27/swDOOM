@@ -9,6 +9,10 @@
   --font-russo: 'Russo One';
 }
 
+#root {
+  margin-top: 0;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -191,4 +195,10 @@ body {
   border-radius: 50%;
   border: 2px solid #444;
   box-shadow: inset 0 0 4px #222, inset 0 -1px 2px #fff3;
+}
+
+/* Here is where all of the Mobile CSS will go */
+
+.mobile {
+  margin-top: 0;
 }
