@@ -8,14 +8,27 @@ html, body {
   justify-content: center;
 }
 
+body {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
 .television {
   display: flex;
   flex-direction: column;
+  background: linear-gradient(160deg, #222 60%, #444 100%);
+  border: 8px solid #111;
+  border-radius: 32px 32px 40px 40px / 28px 28px 48px 48px;
+  box-shadow: 0 12px 48px #000a, 0 2px 8px #222;
+  padding: 32px 32px 48px 32px;
+  width: 100vw;
+  height: 100%;
 }
 
 .screen {
-  width: 95vw;
-  height: 82vh;
+  width: 100%;
+  height: 80vh;
   background: #0a1a0a;
   display: flex;
   justify-content: center;
@@ -32,12 +45,142 @@ html, body {
 }
 
 .TVControlDeck {
-  flex: 1;
+  background: linear-gradient(180deg, #333 60%, #222 100%);
+  border-radius: 0 0 24px 24px;
+  box-shadow: 0 4px 16px #111a;
+  padding: 24px 16px 16px 16px;
+  margin-top: 0;
   min-height: 140px;
   background: #333;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
+}
+
+.plugs {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background: linear-gradient(145deg, #222 0%, #444 100%);
+  border-radius: 18px;
+  box-shadow: 
+    inset 4px 4px 16px #111a,
+    inset -4px -4px 16px #555a,
+    0 2px 8px #1118;
+  padding: 18px 28px;
+  border: 2px solid #222;
+}
+
+.plugOuterShell {
+  width: 50px;
+  height: 50px;
+  background: radial-gradient(circle at 60% 40%, #e0e0e0 0%, #b0b0b0 60%, #333 100%);
+  border-radius: 50%;
+  border: 2px solid #888;
+  box-shadow: 0 2px 8px #222, inset 0 1px 6px #fff3;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px
+}
+
+.plugVideo {
+  width: 36px;
+  height: 36px;
+  background: radial-gradient(circle, #ffd700 60%, #b8860b 100%);
+  border-radius: 50%;
+  border: 2px solid #444;
+  box-shadow: 0 0 4px #444;
+  position: absolute;
+  z-index: 1;
+}
+
+.audioPlugLeft {
+  width: 36px;
+  height: 36px;
+  background: radial-gradient(circle, #ffffff 60%, #cccccc 100%);
+  border-radius: 50%;
+  border: 2px solid #444;
+  position: absolute;
+  z-index: 1;
+}
+
+.audioPlugRight {
+  width: 36px;
+  height: 36px;
+  background: radial-gradient(circle, #ff4444 60%, #990000 100%);
+  border-radius: 50%;
+  border: 2px solid #444;
+  box-shadow: 0 0 4px #444;
+  position: absolute;
+  z-index: 1;
+}
+
+.plugHole {
+  width: 16px;
+  height: 16px;
+  background: #111;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-around;
+  padding: 24px 0 0 0;
+  gap: 32px;
+  flex-direction: row;
+}
+
+.controlDeck{
+  display: flex;
+}
+
+.controlDeckWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonLabel {
+  color: #fff;
+  font-size: 0.85rem;
+  font-family: 'Arial Blavck', Arial, sans-serif;
+  margin-top: 4px;
+  letter-spacing: 2px;
+  user-select: none;
+}
+
+.controlButton {
+  width: 75px;
+  height: 50px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #222, inset 0 1px 6px #fff3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controlButton:focus {
+  outline: none;
+  box-shadow: 0 2px 8px #222, inset 0 1px 6px #fff3;
+}
+
+.controlButton:focus-visible {
+  outline: 2px solid #fff;
+}
+
+.powerIcon {
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(circle, #ff0000 60%, #800000 100%);
+  border-radius: 50%;
+  border: 2px solid #444;
+  box-shadow: inset 0 0 4px #222, inset 0 -1px 2px #fff3;
 }
