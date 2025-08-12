@@ -14,19 +14,25 @@ export default function GameCanvas() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const screenDivRef = useRef<HTMLDivElement | null>(null);
   const [runtimeReady, setRuntimeReady] = useState(false);
-  const [gameStarted, setGameStarted] = useState(false);
-  
+
   useEffect(() => {
-    const preventFullscreen = () => {
+    let originalFullscreenRequest: HTMLCanvasElement['requestFullscreen'] | null = null;
+
+
+    // Used to prevent fullscreen on load
+    const preventFullscreenOnLoad = () => {
       const canvas = canvasRef.current;
       if (canvas) {
+        originalFullscreenRequest = canvas.requestFullscreen.bind(canvas);
+
         canvas.requestFullscreen = () => {
-          console.warn('Preventing canvas from going Full Screen on load');
+          console.warn('Preventing canvas full screen on load');
+          return Promise.resolve();
         };
       }
     };
-    preventFullscreen();
 
+    preventFullscreenOnLoad(); 
     // This is used to set the arguement '-width' and '-height' for the WAD file.
     const width = screenDivRef.current?.clientWidth || 800;
     const height = screenDivRef.current?.clientHeight || 600;
@@ -41,7 +47,12 @@ export default function GameCanvas() {
       ],
       onRuntimeInitialized: () => {
         console.log('[WASM] Runtime initialized');
-        console.log(`Width: ${width}, Height: ${height}`)
+        
+        // Used to return the request back to the user after inital load
+        if (canvasRef.current && originalFullscreenRequest) {
+          canvasRef.current.requestFullscreen = originalFullscreenRequest;
+        }
+
         setRuntimeReady(true); // mark runtime as ready to start
       }
     };
@@ -55,6 +66,10 @@ export default function GameCanvas() {
       document.body.appendChild(script);
     }
   }, []);
+
+  if (runtimeReady) {
+    console.log('Game start!!');
+  };
 
   return (
     <div className="screen" ref={screenDivRef}>
