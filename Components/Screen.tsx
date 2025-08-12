@@ -49,7 +49,7 @@ export default function GameCanvas() {
     const existingScript = document.querySelector('script[data-wasm="chocolate-doom"]');
     if (!existingScript) {
       const script = document.createElement('script');
-      script.src = '/Doom_wasm/build/src/chocolate-doom.js';
+      script.src = '/Doom_wasm/chocolate-doom.js';
       script.async = true;
       script.setAttribute('data-wasm', 'chocolate-doom');
       document.body.appendChild(script);
