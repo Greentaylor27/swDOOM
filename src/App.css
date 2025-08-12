@@ -37,7 +37,7 @@ body {
 }
 
 .screen canvas {
-  width: 100%;
+  width: 55%;
   height: 100%;
   display: block;
   image-rendering: pixelated;
