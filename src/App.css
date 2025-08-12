@@ -1,4 +1,13 @@
+@font-face {
+  font-family: 'Russo One';
+  src: url(../src/assets/font/RussoOne-Regular.ttf);
+}
+
 @import "tailwindcss";
+
+@theme {
+  --font-russo: 'Russo One';
+}
 
 html, body {
   margin: 0;
@@ -63,7 +72,6 @@ body {
   display: inline-flex;
   flex-direction: row;
   align-items: center;
-  margin-right: auto;
   margin-bottom: 20px;
   background: linear-gradient(145deg, #222 0%, #444 100%);
   border-radius: 18px;

@@ -4,6 +4,7 @@ import RightAudioPlug from './RightAudioPlug';
 import PowerButton from './PowerButton';
 import VolumeControl from './VolumeControl';
 import ChannelControl from './ChannelControl';
+import Logo from './Logo';
 
 export default function TVControlDeck() {
   return (
@@ -14,6 +15,7 @@ export default function TVControlDeck() {
         <LeftAudioPlug />
         <RightAudioPlug />
       </div>
+      <Logo />
       <div className="buttonGroup">
         {/* Here is where I will put the TV Buttons, 
         (stretch goal idea allow channel control to switch channels which corresponds to a shader.)
